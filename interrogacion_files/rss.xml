@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>疑問文・否定文
+Oraciones interrogativas y negativas</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion.html</link>
+    <description>スペイン語の疑問文や否定文の考え方は、基本的に英語と同じです。しかし幾つか異なる点がありますので気をつけましょう。一般に、スペイン語のほうがシンプルです。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion.html#0</link>
+      <guid isPermaLink="false">ddc8c6b7-5fa8-4187-950b-d0423ea9c4b1</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/1/1.jpg" length="56984" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion.html#1</link>
+      <guid isPermaLink="false">9d3aaa11-cea6-44a0-8873-a28ea2e69ba2</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/2/2.jpg" length="55203" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion.html#2</link>
+      <guid isPermaLink="false">072fff56-1da0-408a-b1aa-5a5ef35983b9</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/3/3.jpg" length="61893" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion.html#3</link>
+      <guid isPermaLink="false">98bd54a7-b145-422a-8d19-5a05bd0d6e9a</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/4/4.jpg" length="65177" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion.html#4</link>
+      <guid isPermaLink="false">34e57b4b-9bb4-4da6-892e-e2d33475fe62</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/5/5.jpg" length="64576" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/5/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/5/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion.html#5</link>
+      <guid isPermaLink="false">33d1050a-ff1d-48eb-a4fc-d556c29087d3</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/6/6.jpg" length="73038" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/6/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/6/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion.html#6</link>
+      <guid isPermaLink="false">cd06ccac-26d9-4600-b25b-66869e919da6</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/7/7.jpg" length="60562" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/7/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/interrogacion_files/Media/7/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

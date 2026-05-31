@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title> e=&gt;i となる不規則動詞
+verbos irregulares tipo e=&gt;i</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i.html</link>
+    <description>スペイン語の不規則動詞には、人称変化をする語尾の音節の一つ前の音節の母音 [e] が、[i] に変化するパターンのものがあります。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i.html#0</link>
+      <guid isPermaLink="false">8cb51373-87ac-46ef-ba69-eca15ccdf7e3</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/2/2.jpg" length="43583" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i.html#1</link>
+      <guid isPermaLink="false">b34d481f-9ec6-405c-8646-df15f3bf9172</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/3/3.jpg" length="43693" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i.html#2</link>
+      <guid isPermaLink="false">b4294806-013c-4957-b96b-df7e99e0567f</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/4/4.jpg" length="49251" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i.html#3</link>
+      <guid isPermaLink="false">5c171d54-4c7f-4d0e-8635-1def3d903f5f</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/1/1.jpg" length="45873" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares_i_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

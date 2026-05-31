@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>動詞の規則的な変化（現在時制）
+conjugación de los verbos regulares
+(tiempo presente)</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares.html</link>
+    <description>スペイン語の動詞は、不定形の終わり方から “-ar” 動詞、“-er” 動詞、“-ir” 動詞に分けられる。
+
+スペイン語の現在時制は、現在の日課・習慣、近い将来の予定などをいう時に用いられる。
+
+スペイン語の動詞には、規則的な変化をするものと、不規則な変化をするものがある。
+不規則な変化をするものには、以下のようなものがある。
+    ser, estar, tener, hacer, ir, jugar, venir, ver, etc.
+
+スペイン語の動詞の規則的な変化（現在時制）は以下のとおり。
+アクセントの場所が複数一人称、複数二人称とそれ以外とでは異なるので注意。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares.html#0</link>
+      <guid isPermaLink="false">9ee15ce8-0169-4531-bdad-eb7e2ab7ac54</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/1/1.jpg" length="41011" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares.html#1</link>
+      <guid isPermaLink="false">73578df2-f5c1-42ad-b8ff-cf43674e0f2b</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/2/2.jpg" length="56443" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares.html#2</link>
+      <guid isPermaLink="false">3bcf0f2a-e8fa-4b73-85a0-cdbce6de84fd</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/3/3.jpg" length="41221" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares.html#3</link>
+      <guid isPermaLink="false">3b5b5174-300a-4ba8-835c-5c475aeff62a</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/4/4.jpg" length="49581" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares.html#4</link>
+      <guid isPermaLink="false">1c590c56-ed0d-4ccd-97e6-7930cff10915</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/5/5.jpg" length="39831" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/5/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/5/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares.html#5</link>
+      <guid isPermaLink="false">27bcdaf3-9423-4fa5-a393-800084276e06</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/6/6.jpg" length="55683" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/6/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_regulares_files/Media/6/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

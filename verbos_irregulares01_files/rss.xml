@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title> よく使う不規則動詞
+verbos irregulares de uso común</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01.html</link>
+    <description>不規則な人称変化をする動詞の多くは、日常生活でよく使われる基本的な動詞です。スペイン語の歴史の中で使い込まれる中で、言いやすい形に変形してきたのだと言えます。
+
+不規則な人称変化をする動詞のうち、以下のものをここでは覚えよう。ir は再掲です。
+                hacer, ir, jugar, salir, venir, ver
+
+不規則な人称変化と言っても、そこにはパターンがあります。
+
+    複数１人称、複数２人称が不規則になることはありません。
+
+　１人称単数が、-goで終わるパターンがあります。
+
+                hago, tengo, salgo, vengo
+
+　また、-ar, -er, -ir という語尾の直前の音節の母音が e =&gt; ie、o =&gt; ue,  u=&gt; ue e =&gt; i のようになるパターンも多く見られます。
+
+                juego, tiene, viene
+
+だいたいの不規則動詞はこれらのパターンを持っています。それ以外のパターンについては、それぞれに覚えていくことにしましょう。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01.html#0</link>
+      <guid isPermaLink="false">ba2be52e-c318-462b-97e9-c60aa7ed9b9d</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/1/1.jpg" length="54855" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01.html#1</link>
+      <guid isPermaLink="false">398cbd2e-ab80-487b-8c9e-73a0a003014e</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/2/2.jpg" length="43825" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01.html#2</link>
+      <guid isPermaLink="false">c8e25c94-f542-4204-b8fa-bf702425f17f</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/3/3.jpg" length="58816" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01.html#3</link>
+      <guid isPermaLink="false">1ecc15bc-0976-49ac-b130-d16648e31532</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/4/4.jpg" length="52212" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01.html#4</link>
+      <guid isPermaLink="false">c3017849-30b2-43b3-a58e-8a4a4cb6cde0</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/5/5.jpg" length="45089" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/5/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/5/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01.html#5</link>
+      <guid isPermaLink="false">dec2e998-2814-4f64-9745-25d036b69e2a</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/6/6.jpg" length="54280" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/6/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbos_irregulares01_files/Media/6/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:DF6878DB-8405-4ACF-A0DF-792BD25DCFD2</id>
+ <title>Page list Atom feed</title>
+ <updated>2011-06-23T18:19:04+09:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:58044149-F5E4-4392-8B6C-E840E1DAACE6</id>
+  <title>menu</title>
+  <title xmlns="urn:iweb:">menu</title>
+  <in-navbar xmlns="urn:iweb:">58044149-F5E4-4392-8B6C-E840E1DAACE6</in-navbar>
+  <link rel="alternate" href="menu.html"/>
+  <updated>2011-06-23T18:19:04.001+09:00</updated>
+  <content>menu</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:369D38EC-3249-45AE-B020-7D478725B0F8</id>
+  <title>como_se_dice</title>
+  <title xmlns="urn:iweb:">como_se_dice</title>
+  <in-navbar xmlns="urn:iweb:">369D38EC-3249-45AE-B020-7D478725B0F8</in-navbar>
+  <link rel="alternate" href="como_se_dice.html"/>
+  <updated>2011-06-23T18:19:04.002+09:00</updated>
+  <content>como_se_dice</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:C8350CD9-6445-47E8-82B6-140C372E6945</id>
+  <title>pronunciacion</title>
+  <title xmlns="urn:iweb:">pronunciacion</title>
+  <in-navbar xmlns="urn:iweb:">C8350CD9-6445-47E8-82B6-140C372E6945</in-navbar>
+  <link rel="alternate" href="pronunciacion.html"/>
+  <updated>2011-06-23T18:19:04.003+09:00</updated>
+  <content>pronunciacion</content>
+ </entry>
+</feed>

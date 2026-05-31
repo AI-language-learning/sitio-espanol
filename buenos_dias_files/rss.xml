@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>おはよう／こんにちは／こんばんは／おやすみなさい</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias.html</link>
+    <description>おはよう／こんにちは／こんばんは／おやすみなさい</description>
+    <item>
+      <title>
+正午まで</title>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias.html#0</link>
+      <guid isPermaLink="false">ff1a9516-62c4-4630-82f5-8b0034223a07</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias_files/Media/1/1.jpg" length="44306" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias_files/Media/1/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-top: 0pt; &quot; class=&quot;Caption&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;padding-bottom: 0pt; &quot; class=&quot;Caption&quot;&gt;正午まで&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>
+正午〜日没まで</title>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias.html#1</link>
+      <guid isPermaLink="false">f90d2d32-464c-4999-b5ff-f12e405a6e7d</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias_files/Media/2/2.jpg" length="42708" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias_files/Media/2/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-top: 0pt; &quot; class=&quot;Caption&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;padding-bottom: 0pt; &quot; class=&quot;Caption&quot;&gt;正午〜日没まで&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <title>
+日没から後
+「こんばんは」も「おやすみなさい」も同じ表現</title>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias.html#2</link>
+      <guid isPermaLink="false">c3d0fbf4-d8f2-4efb-81ae-3d02b0092ec5</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias_files/Media/3/3.jpg" length="55364" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/buenos_dias_files/Media/3/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;&gt;&lt;p style=&quot;padding-top: 0pt; &quot; class=&quot;Caption&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;Caption&quot;&gt;日没から後&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;padding-bottom: 0pt; &quot; class=&quot;Caption&quot;&gt;「こんばんは」も「おやすみなさい」も同じ表現&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+  </channel>
+</rss>

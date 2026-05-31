@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>四季 las cuatro estaciones</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones.html</link>
+    <description> スペイン語圏でも緯度の高い地域では四季があります。
+ 南アメリカでもエクアドル以南の国々は南半球に位置し、北半球とは四季が逆になります。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones.html#0</link>
+      <guid isPermaLink="false">2cd3cd5a-26dc-4ad8-b99a-21341c06f3ef</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/01/01.jpg" length="31772" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/01/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/01/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones.html#1</link>
+      <guid isPermaLink="false">39f21fcd-1c73-40d9-a038-4538fc9308ff</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/02/02.jpg" length="45809" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/02/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/02/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones.html#2</link>
+      <guid isPermaLink="false">6da2fc23-dbae-41fd-83f1-8c4a19ca2f1d</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/03/03.jpg" length="38658" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/03/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/03/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones.html#3</link>
+      <guid isPermaLink="false">5a279c48-f3e7-4320-a272-70e7051b7a31</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/04/04.jpg" length="33666" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/04/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/04/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones.html#4</link>
+      <guid isPermaLink="false">ccfeb33c-22e1-4683-80b1-e2619f52cbbd</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/05/05.jpg" length="25974" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/05/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/05/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones.html#5</link>
+      <guid isPermaLink="false">0e7712ac-77df-4a98-8e57-c3780e958500</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/06/06.jpg" length="41917" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/06/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/06/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones.html#6</link>
+      <guid isPermaLink="false">b0986f20-83fc-4511-bd26-e1590da82652</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/07/07.jpg" length="35039" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/07/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/07/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones.html#7</link>
+      <guid isPermaLink="false">c159981f-7002-4259-9932-162f2d17f3ff</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/08/08.jpg" length="29216" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/08/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/cuatro_estaciones_files/Media/08/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

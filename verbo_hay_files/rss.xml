@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>“there is / there are”に相当する動詞 “hay”
+El verbo “hay” que significa “there is / there are”</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay.html</link>
+    <description>スペイン語の動詞は時制ごとに６つの人称変化形を持っています。
+
+しかし、この動詞 ”hay” は、人称変化を考えずに使います。
+
+不定形（変化していない形、辞書に載っている形）は “haber” ですが、現在時制ではいつも “hay” です。
+
+存在するモノや人間・動物が単数でも、複数でも変わらず、”hay” の形のままです。
+
+そういったものがあるのか、ないのか、が問題になる時に使い、英語と同じく名詞には定冠詞を使いません。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay.html#0</link>
+      <guid isPermaLink="false">2be85840-c1e2-4b80-821d-681010310bbb</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay01/verbo_hay01.jpg" length="49729" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay01/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay01/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay.html#1</link>
+      <guid isPermaLink="false">ed05c2c8-9d7a-439f-9104-d662576b60ef</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay02/verbo_hay02.jpg" length="41752" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay02/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay02/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay.html#2</link>
+      <guid isPermaLink="false">466b7e7e-428a-4632-8e33-47a5f3f371ee</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay03/verbo_hay03.jpg" length="47052" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay03/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay03/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay.html#3</link>
+      <guid isPermaLink="false">2113592d-2c1c-4aa9-b677-edd61f0c60e2</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay04/verbo_hay04.jpg" length="56025" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay04/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/verbo_hay_files/Media/verbo_hay04/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

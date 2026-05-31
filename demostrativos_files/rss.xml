@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>指示詞（「こそあ」の表現） demostrativos</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos.html</link>
+    <description>　スペイン語の「こそあ」の表現は日本語と同じ３段階。
+　指示形容詞と指示代名詞の違いにアクセント符号が関係するので注意。
+「これは何？」「あれは何？」と聞く時は、それが女性名詞なのか、   男性名詞なのか分からないわけだから、中性（無性）の形を使う。
+
+    ¿Qué es esto?    What’s this?
+
+    ¿Qué es eso?     What’s that?</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos.html#0</link>
+      <guid isPermaLink="false">bc2366bc-b853-41b6-a10a-ae24353c8616</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/1/1.jpg" length="40169" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos.html#1</link>
+      <guid isPermaLink="false">a91a6c2a-51d4-4f37-8b12-71c6a5f312fe</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/2/2.jpg" length="39521" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos.html#2</link>
+      <guid isPermaLink="false">43c951ec-e14a-4a31-bb00-2113deeaed45</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/3/3.jpg" length="61128" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos.html#3</link>
+      <guid isPermaLink="false">2af46a68-a441-4354-902c-6f4448468663</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/4/4.jpg" length="63650" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/demostrativos_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

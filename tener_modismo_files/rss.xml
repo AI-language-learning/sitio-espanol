@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>tener を使った表現　expresiones con “tener”</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo.html</link>
+    <description>動詞 “tener” を使った表現を幾つか覚えましょう。
+同じ意味を伝えるのに、英語では形容詞を使って表すことが多いことに注目してください。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo.html#0</link>
+      <guid isPermaLink="false">b8cee92b-5bff-4065-b314-ee74df8e9b95</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/1/1.jpg" length="36898" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo.html#1</link>
+      <guid isPermaLink="false">fe932892-569b-4762-bb36-8eb9af6e3317</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/2/2.jpg" length="42336" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo.html#2</link>
+      <guid isPermaLink="false">a3a47dbb-cf34-4c30-a55e-a49446734b19</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/3/3.jpg" length="49067" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo.html#3</link>
+      <guid isPermaLink="false">5fedaa26-6feb-4de1-9abc-2847775ebdd8</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/4/4.jpg" length="49353" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo.html#4</link>
+      <guid isPermaLink="false">2a13eaae-898c-4e97-b134-707aedbd0eb9</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/5/5.jpg" length="50181" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/5/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/5/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo.html#5</link>
+      <guid isPermaLink="false">3bf9b00f-33e7-4671-976b-cf304bb3af8b</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/7/7.jpg" length="51208" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/7/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/7/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo.html#6</link>
+      <guid isPermaLink="false">d849f713-b349-4a7a-bb24-8ef3ec3cc778</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/6/6.jpg" length="35391" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/6/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/tener_modismo_files/Media/6/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

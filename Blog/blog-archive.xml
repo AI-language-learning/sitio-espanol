@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Blog</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/Blog</link>
+    <description>Donec arcu risus diam amet sit. Congue tortor cursus risus vestibulum commodo nisl, luctus augue amet quis aenean maecenas sit, donec velit iusto, morbi felis elit et nibh. Vestibulum volutpat dui lacus consectetuer, mauris at suspendisse sit.</description>
+    <item>
+      <title>Ya termin&#xF3; la primera semana.</title>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/Blog/entori/2006/4/13_Ya_termino_la_primera_semana..html</link>
+      <guid isPermaLink="false">3652a1f7-003a-44dd-87b5-709dd00bf67a</guid>
+      <pubDate>Thu, 13 Apr 2006 14:48:18 +0900</pubDate>
+      <iweb:comment enabled="0" count="0" link="file://localhost/Volumes/PORTABLE160/Sites/Site/Blog/entori/2006/4/13_Ya_termino_la_primera_semana..html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>yy/MM/dd</iweb:dateFormat>
+    <iweb:baseURL>file://localhost/Volumes/PORTABLE160/Sites/Site/Blog</iweb:baseURL>
+    <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
+  </channel>
+</rss>

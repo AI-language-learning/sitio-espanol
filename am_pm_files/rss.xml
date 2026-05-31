@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>午前・午後 mañana/tarde/noche</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm.html</link>
+    <description>時間を言わずに、「午前中に」「午後に」「夜に」と言う時は、”por” を使う。
+「朝の何時」「午後何時」「夜の何時」と言う時は、”de” を使う。
+英語ではどちらも、”in” を使うので注意。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm.html#0</link>
+      <guid isPermaLink="false">4315e18f-e1c7-49e2-af91-f5c5a5951c9c</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/1/1.jpg" length="47777" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm.html#1</link>
+      <guid isPermaLink="false">894ee792-70b2-4b68-857c-8b7d2252fd9b</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/4/4.jpg" length="49413" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm.html#2</link>
+      <guid isPermaLink="false">a3fec1d0-c462-433b-937b-299ee5d46c3d</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/2/2.jpg" length="43420" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm.html#3</link>
+      <guid isPermaLink="false">097a1e56-15c4-493f-84c9-8d26b55b58a9</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/5/5.jpg" length="51559" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/5/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/5/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm.html#4</link>
+      <guid isPermaLink="false">65ebf4f2-0655-4503-9c9f-0ae91b4d9d5a</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/3/3.jpg" length="42158" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm.html#5</link>
+      <guid isPermaLink="false">6fbf3126-ad17-4e02-b3d9-2ffa55e1d80a</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/6/6.jpg" length="47043" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/6/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/am_pm_files/Media/6/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

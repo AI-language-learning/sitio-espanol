@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>主格人称代名詞 pronombres personales</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales.html</link>
+    <description>主格人称代名詞 pronombres personales</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales.html#0</link>
+      <guid isPermaLink="false">07df8aae-15a1-45f1-93e1-a600fba48144</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/1/1.jpg" length="92001" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales.html#1</link>
+      <guid isPermaLink="false">0ff3b3e4-6821-487f-8323-40048b63e752</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/2/2.jpg" length="69079" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales.html#2</link>
+      <guid isPermaLink="false">2931dd68-f6ee-4220-951e-4d12742c1b56</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/3/3.jpg" length="91113" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales.html#3</link>
+      <guid isPermaLink="false">426d62f2-cc09-4c22-8605-f9435ed03640</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/4/4.jpg" length="70253" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales.html#4</link>
+      <guid isPermaLink="false">3aab9119-a8c6-4897-a0e0-620093e30f2c</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/5/5.jpg" length="53845" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/5/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/5/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales.html#5</link>
+      <guid isPermaLink="false">a4f637d3-e8e7-4e21-8294-77505d2dc45c</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/6/6.jpg" length="76904" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/6/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/6/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales.html#6</link>
+      <guid isPermaLink="false">824c7f56-230c-4196-b11e-31e150ef9a99</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/7/7.jpg" length="74255" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/7/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/7/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales.html#7</link>
+      <guid isPermaLink="false">4c574399-833c-4610-8d0b-b0554cc3a0a3</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/8/8.jpg" length="68535" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/8/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/pronombres_personales_files/Media/8/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>家族 &quot;familia&quot;</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/familia.html</link>
+    <description>家族 &quot;familia&quot;</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/familia.html#0</link>
+      <guid isPermaLink="false">ad961bb5-7ad7-4b0c-b3cd-4c9cc0f1688c</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/1/1.jpg" length="48486" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/familia.html#1</link>
+      <guid isPermaLink="false">1323236e-6c01-48bc-8b01-1e5d1c4e400c</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/2/2.jpg" length="45630" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/familia.html#2</link>
+      <guid isPermaLink="false">18f4d92f-9433-4706-ad0b-5d107272269f</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/3/3.jpg" length="46728" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/familia.html#3</link>
+      <guid isPermaLink="false">364c37d0-bc0f-49bf-bd98-72ea119cf6a4</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/4/4.jpg" length="27962" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/familia.html#4</link>
+      <guid isPermaLink="false">6c673add-7d85-493a-be2e-9b85b2920329</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/5/5.jpg" length="59840" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/5/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/5/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/familia.html#5</link>
+      <guid isPermaLink="false">4335f9f9-f9cc-47c6-addc-fdfbe9b7ed26</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/6/6.jpg" length="47878" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/6/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/familia_files/Media/6/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>昨日・今日・明日 ayer/hoy/mañana</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana.html</link>
+    <description>過去 (pasado)、 現在 (presente)、 未来 (futuro) に関する時間の副詞表現はセットで覚えよう。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana.html#0</link>
+      <guid isPermaLink="false">4d4cb101-d18d-44a3-a110-e22aa9c33be6</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/1/1.jpg" length="41821" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/1/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana.html#1</link>
+      <guid isPermaLink="false">1b03486e-d45a-42e7-bd85-97df8a5204f0</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/2/2.jpg" length="54610" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/2/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana.html#2</link>
+      <guid isPermaLink="false">3a41e21c-1fb6-4daa-a457-9c357390f1a0</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/3/3.jpg" length="55615" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/3/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana.html#3</link>
+      <guid isPermaLink="false">27eef724-87c3-427f-a5fc-07f23a2a2576</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/4/4.jpg" length="66926" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/4/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana.html#4</link>
+      <guid isPermaLink="false">c4b7b324-6f63-450c-9949-4080c418fa3e</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/5/5.jpg" length="61181" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/5/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/5/micro.jpg</iweb:micro>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana.html#5</link>
+      <guid isPermaLink="false">3f9c6d28-5afb-4231-b52b-ce520f4fed75</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/6/6.jpg" length="60778" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/6/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ayer_hoy_manana_files/Media/6/micro.jpg</iweb:micro>
+    </item>
+  </channel>
+</rss>

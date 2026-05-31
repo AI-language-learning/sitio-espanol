@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>性格や外見といった人の属性を表す形容詞
+Adjetivos para describir atributos personales
+como carácter y apariencia</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/adjetivos01.html</link>
+    <description>ここでは性格や外見といった人の属性を表す形容詞の使い方を学びます。
+文の構造は英語と同様に［（主語）＋　並置動詞　＋　形容詞　］です。
+英語の並置動詞は to be ですが、スペイン語の並置動詞には ser と estar があります。
+属性を表す形容詞には、このうちの ser を使います。動詞 ser についてはこちら。
+形容詞は主語に合わせて、男性形・女性形、単数形・複数形を使い分けます。
+形容詞の複数形は、母音で終わっていれば s を、子音で終わっていれば es を加えて作ります。</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/adjetivos01.html#0</link>
+      <guid isPermaLink="false">80b45f04-ff58-4c66-adc8-ba164e2a4b95</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/adjetivos01_files/Media/dummy/dummy.jpg" length="761" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/adjetivos01_files/Media/dummy/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/adjetivos01_files/Media/dummy/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;/&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+  </channel>
+</rss>

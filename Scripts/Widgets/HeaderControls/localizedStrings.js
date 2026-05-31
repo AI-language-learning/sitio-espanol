@@ -1,0 +1,2 @@
+
+(function(){var strings={};strings['Subscribe']='登録';strings['Back to Index']='インデックスに戻る';strings['Add Photo']='写真を追加';strings['Play Slideshow']='スライドショーを再生';RegisterWidgetStrings("com-apple-iweb-widget-headercontrols",strings);})();

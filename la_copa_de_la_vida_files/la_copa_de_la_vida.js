@@ -1,0 +1,11 @@
+// Created by iWeb 3.0.3 local-build-20110623
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_0:new IWStrokeParts([{rect:new IWRect(-2,3,5,394),url:'la_copa_de_la_vida_files/stroke.png'},{rect:new IWRect(-3,-2,6,5),url:'la_copa_de_la_vida_files/stroke_1.png'},{rect:new IWRect(3,-2,642,5),url:'la_copa_de_la_vida_files/stroke_2.png'},{rect:new IWRect(645,-2,4,5),url:'la_copa_de_la_vida_files/stroke_3.png'},{rect:new IWRect(645,3,6,394),url:'la_copa_de_la_vida_files/stroke_4.png'},{rect:new IWRect(645,397,6,4),url:'la_copa_de_la_vida_files/stroke_5.png'},{rect:new IWRect(3,397,642,6),url:'la_copa_de_la_vida_files/stroke_6.png'},{rect:new IWRect(-3,397,6,6),url:'la_copa_de_la_vida_files/stroke_7.png'}],new IWSize(648,400)),stroke_1:new IWStrokeParts([{rect:new IWRect(-3,3,6,473),url:'la_copa_de_la_vida_files/stroke_8.png'},{rect:new IWRect(-3,-4,6,7),url:'la_copa_de_la_vida_files/stroke_9.png'},{rect:new IWRect(3,-3,638,6),url:'la_copa_de_la_vida_files/stroke_10.png'},{rect:new IWRect(641,-4,4,7),url:'la_copa_de_la_vida_files/stroke_11.png'},{rect:new IWRect(641,3,6,473),url:'la_copa_de_la_vida_files/stroke_12.png'},{rect:new IWRect(641,476,6,6),url:'la_copa_de_la_vida_files/stroke_13.png'},{rect:new IWRect(3,476,638,6),url:'la_copa_de_la_vida_files/stroke_14.png'},{rect:new IWRect(-3,476,6,6),url:'la_copa_de_la_vida_files/stroke_15.png'}],new IWSize(644,480))});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('la_copa_de_la_vida_files/la_copa_de_la_vidaMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');adjustLineHeightIfTooBig('id4');adjustFontSizeIfTooBig('id4');adjustLineHeightIfTooBig('id5');adjustFontSizeIfTooBig('id5');adjustLineHeightIfTooBig('id6');adjustFontSizeIfTooBig('id6');Widget.onload();fixAllIEPNGs('Media/transparent.gif');IMpreload('la_copa_de_la_vida_files','shapeimage_2','0');IMpreload('la_copa_de_la_vida_files','shapeimage_2','1');IMpreload('la_copa_de_la_vida_files','shapeimage_2','2');applyEffects()}
+function onPageUnload()
+{Widget.onunload();}

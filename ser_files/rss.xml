@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>「属性」を示す名詞や形容詞を並置する
+動詞 &quot;ser&quot;</title>
+    <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ser.html</link>
+    <description>「属性」を示す名詞や形容詞を並置する
+動詞 &quot;ser&quot;</description>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ser.html#0</link>
+      <guid isPermaLink="false">3f7b6a2c-7fa0-4fe1-b7bd-6791fd2e3849</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/1/1.jpg" length="85199" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/1/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/1/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;/&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ser.html#1</link>
+      <guid isPermaLink="false">c6c64d23-a6b2-4bc6-bbe9-2b107cc6ec5e</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/2/2.jpg" length="61557" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/2/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/2/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;/&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ser.html#2</link>
+      <guid isPermaLink="false">d9a1ecc7-204c-420f-ad15-a5d889df1022</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/3/3.jpg" length="54862" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/3/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/3/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;/&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ser.html#3</link>
+      <guid isPermaLink="false">7679dc6b-5639-4f62-acaa-8c600de27412</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/4/4.jpg" length="64028" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/4/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/4/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;/&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ser.html#4</link>
+      <guid isPermaLink="false">25b36798-fbdc-46d6-ab1f-c1a7841ef91a</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/5/5.jpg" length="62346" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/5/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/5/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;/&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+    <item>
+      <link>file://localhost/Volumes/PORTABLE160/Sites/Site/ser.html#5</link>
+      <guid isPermaLink="false">50e33f43-385a-459b-9b5c-6ff94da8ee92</guid>
+      <enclosure url="file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/6/6.jpg" length="70215" type="image/jpeg"/>
+      <iphoto:thumbnail>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/6/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>file://localhost/Volumes/PORTABLE160/Sites/Site/ser_files/Media/6/micro.jpg</iweb:micro>
+      <iweb:richTitle>&lt;div style=&quot;padding: 0px; &quot; class=&quot;image_cluster_layout_style_default_External_0_0&quot;&gt;&lt;div class=&quot;image_cluster_layout_style_default&quot;/&gt;&lt;/div&gt;</iweb:richTitle>
+    </item>
+  </channel>
+</rss>

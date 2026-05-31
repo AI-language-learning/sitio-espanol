@@ -1,0 +1,11 @@
+// Created by iWeb 3.0.3 local-build-20110623
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({shadow_0:new IWShadow({blurRadius:10,offset:new IWPoint(4.2426,4.2426),color:'#000000',opacity:0.750000}),stroke_0:new IWStrokeParts([{rect:new IWRect(-2,3,5,452),url:'que_sera_files/stroke.png'},{rect:new IWRect(-3,-2,6,5),url:'que_sera_files/stroke_1.png'},{rect:new IWRect(3,-2,673,5),url:'que_sera_files/stroke_2.png'},{rect:new IWRect(676,-2,4,5),url:'que_sera_files/stroke_3.png'},{rect:new IWRect(676,3,6,452),url:'que_sera_files/stroke_4.png'},{rect:new IWRect(676,455,6,4),url:'que_sera_files/stroke_5.png'},{rect:new IWRect(3,455,673,6),url:'que_sera_files/stroke_6.png'},{rect:new IWRect(-3,455,6,6),url:'que_sera_files/stroke_7.png'}],new IWSize(679,458)),shadow_1:new IWShadow({blurRadius:10,offset:new IWPoint(4.2426,4.2426),color:'#000000',opacity:0.750000}),stroke_1:new IWStrokeParts([{rect:new IWRect(-3,3,6,652),url:'que_sera_files/stroke_8.png'},{rect:new IWRect(-3,-4,6,7),url:'que_sera_files/stroke_9.png'},{rect:new IWRect(3,-3,672,6),url:'que_sera_files/stroke_10.png'},{rect:new IWRect(675,-4,4,7),url:'que_sera_files/stroke_11.png'},{rect:new IWRect(675,3,6,652),url:'que_sera_files/stroke_12.png'},{rect:new IWRect(675,655,6,6),url:'que_sera_files/stroke_13.png'},{rect:new IWRect(3,655,672,6),url:'que_sera_files/stroke_14.png'},{rect:new IWRect(-3,655,6,6),url:'que_sera_files/stroke_15.png'}],new IWSize(678,659))});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('que_sera_files/que_seraMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');adjustLineHeightIfTooBig('id4');adjustFontSizeIfTooBig('id4');adjustLineHeightIfTooBig('id5');adjustFontSizeIfTooBig('id5');adjustLineHeightIfTooBig('id6');adjustFontSizeIfTooBig('id6');Widget.onload();fixAllIEPNGs('Media/transparent.gif');IMpreload('que_sera_files','shapeimage_2','0');IMpreload('que_sera_files','shapeimage_2','1');IMpreload('que_sera_files','shapeimage_2','2');applyEffects()}
+function onPageUnload()
+{Widget.onunload();}
