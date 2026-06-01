@@ -3,8 +3,54 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title></title>
+<title>教室での表現 Expresiones en la clase</title>
 <link rel="stylesheet" href="style.css">
+<style>
+  .expr-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 1.5rem;
+  }
+  .expr-table th {
+    background: #c8501a;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+  .expr-table td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #f0ebe3;
+    vertical-align: top;
+    line-height: 1.6;
+  }
+  .expr-table tr:nth-child(even) td {
+    background: #fff8f2;
+  }
+  .expr-table tr.section-header td {
+    background: #f5ede4;
+    font-weight: 700;
+    color: #c8501a;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    padding: 0.4rem 0.75rem;
+  }
+  .expr-table .es {
+    font-weight: 600;
+    color: #333;
+    min-width: 180px;
+  }
+  .expr-table .lit {
+    color: #999;
+    font-style: italic;
+    min-width: 160px;
+  }
+  .expr-table .ja {
+    color: #555;
+  }
+</style>
 </head>
 <body>
 
@@ -20,12 +66,69 @@
 </nav>
 
 <main class="site-main">
-  <a class="back-link" href="javascript:history.back()">← 戻る</a>
-  <h1 class="page-title"></h1>
-  <div class="page-description">> ¡Hola! hello! Hello! Buenos días. good days Good morning. Buenas tardes. good afternoons Good afternoon. Buenas noches. good nights Good evening. / Good night. ¿Qué tal? how? How are you? (for any person) ¿Cómo estás? how are (you = familiar)? How are you? (familiar/ singular) ¿Cómo está usted? how are you (= formal)? How are you? (formal / singular) ¿Cómo estáis? how are (you = familiar / plural)? How are you? (familiar / plural) ¿Cómo están ustedes? how are you (= formal / plural)? How are you? (formal / plural) Muy bien. very well (I am / we are) very good. Gracias. graces Thank you. Y ¿tú? and you (= familiar)? And you? (familiar) Y ¿usted? and you (= formal) And you? (formal) Aquí. here Here. Presente. present Present. Profesor. professor (male) Professor. (male) Profesora. professor (female) Professor. (female) Tengo una pregunta. (I) have a question I have a question. ¿Cómo se dice ___ en español? how is said ___ in Spanish? How do you say ___ in Spanish? ¿Qué significa ___ ? </div>
-  <div class="image-grid">
+  <a class="back-link" href="como_se_dice.html">← ¿Cómo se dice? に戻る</a>
+  <h1 class="page-title">教室での表現 <span>Expresiones en la clase</span></h1>
 
-  </div>
+  <table class="expr-table">
+    <thead>
+      <tr>
+        <th>スペイン語</th>
+        <th>直訳</th>
+        <th>意味</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="section-header"><td colspan="3">挨拶</td></tr>
+      <tr><td class="es">¡Hola!</td><td class="lit">hello!</td><td class="ja">こんにちは！</td></tr>
+      <tr><td class="es">Buenos días.</td><td class="lit">good days</td><td class="ja">おはようございます。</td></tr>
+      <tr><td class="es">Buenas tardes.</td><td class="lit">good afternoons</td><td class="ja">こんにちは。</td></tr>
+      <tr><td class="es">Buenas noches.</td><td class="lit">good nights</td><td class="ja">こんばんは。／おやすみなさい。</td></tr>
+
+      <tr class="section-header"><td colspan="3">調子を聞く</td></tr>
+      <tr><td class="es">¿Qué tal?</td><td class="lit">how?</td><td class="ja">調子はどう？（誰にでも）</td></tr>
+      <tr><td class="es">¿Cómo estás?</td><td class="lit">how are you (familiar)?</td><td class="ja">元気？（親しい・単数）</td></tr>
+      <tr><td class="es">¿Cómo está usted?</td><td class="lit">how are you (formal)?</td><td class="ja">お元気ですか？（丁寧・単数）</td></tr>
+      <tr><td class="es">¿Cómo estáis?</td><td class="lit">how are you (familiar / plural)?</td><td class="ja">元気？（親しい・複数）</td></tr>
+      <tr><td class="es">¿Cómo están ustedes?</td><td class="lit">how are you (formal / plural)?</td><td class="ja">お元気ですか？（丁寧・複数）</td></tr>
+      <tr><td class="es">Muy bien.</td><td class="lit">very well</td><td class="ja">とても元気です。</td></tr>
+      <tr><td class="es">Gracias.</td><td class="lit">graces</td><td class="ja">ありがとう。</td></tr>
+      <tr><td class="es">Y ¿tú?</td><td class="lit">and you (familiar)?</td><td class="ja">あなたは？（親しい）</td></tr>
+      <tr><td class="es">Y ¿usted?</td><td class="lit">and you (formal)?</td><td class="ja">あなたは？（丁寧）</td></tr>
+
+      <tr class="section-header"><td colspan="3">出欠</td></tr>
+      <tr><td class="es">Aquí.</td><td class="lit">here</td><td class="ja">はい。（出席）</td></tr>
+      <tr><td class="es">Presente.</td><td class="lit">present</td><td class="ja">はい。（出席）</td></tr>
+      <tr><td class="es">Profesor.</td><td class="lit">professor (male)</td><td class="ja">先生。（男性）</td></tr>
+      <tr><td class="es">Profesora.</td><td class="lit">professor (female)</td><td class="ja">先生。（女性）</td></tr>
+
+      <tr class="section-header"><td colspan="3">授業中の表現</td></tr>
+      <tr><td class="es">Tengo una pregunta.</td><td class="lit">(I) have a question</td><td class="ja">質問があります。</td></tr>
+      <tr><td class="es">¿Cómo se dice ___ en español?</td><td class="lit">how is said ___ in Spanish?</td><td class="ja">___はスペイン語で何と言いますか？</td></tr>
+      <tr><td class="es">¿Qué significa ___ ?</td><td class="lit">what ___ signify?</td><td class="ja">___はどういう意味ですか？</td></tr>
+      <tr><td class="es">¿Perdón?</td><td class="lit">pardon?</td><td class="ja">すみません？（聞き返し）</td></tr>
+      <tr><td class="es">Por favor.</td><td class="lit">by favor</td><td class="ja">お願いします。</td></tr>
+      <tr><td class="es">Con permiso.</td><td class="lit">with permission</td><td class="ja">失礼します。</td></tr>
+      <tr><td class="es">Perdón.</td><td class="lit">pardon</td><td class="ja">すみません。</td></tr>
+      <tr><td class="es">De nada.</td><td class="lit">of nothing</td><td class="ja">どういたしまして。</td></tr>
+      <tr><td class="es">Está bien.</td><td class="lit">(it) is well</td><td class="ja">大丈夫です。</td></tr>
+
+      <tr class="section-header"><td colspan="3">別れの挨拶</td></tr>
+      <tr><td class="es">Adiós.</td><td class="lit">to God</td><td class="ja">さようなら。</td></tr>
+      <tr><td class="es">Hasta luego.</td><td class="lit">till later</td><td class="ja">またね。</td></tr>
+      <tr><td class="es">Hasta mañana.</td><td class="lit">till tomorrow</td><td class="ja">また明日。</td></tr>
+      <tr><td class="es">Hasta el lunes.</td><td class="lit">till the day of the moon</td><td class="ja">また月曜日に。</td></tr>
+      <tr><td class="es">　martes</td><td class="lit">day of Mars</td><td class="ja">　火曜日</td></tr>
+      <tr><td class="es">　miércoles</td><td class="lit">day of Mercury</td><td class="ja">　水曜日</td></tr>
+      <tr><td class="es">　jueves</td><td class="lit">day of Jupiter</td><td class="ja">　木曜日</td></tr>
+      <tr><td class="es">　viernes</td><td class="lit">day of Venus</td><td class="ja">　金曜日</td></tr>
+      <tr><td class="es">　sábado</td><td class="lit">Sabbath</td><td class="ja">　土曜日</td></tr>
+      <tr><td class="es">　domingo</td><td class="lit">day of the Lord</td><td class="ja">　日曜日</td></tr>
+      <tr><td class="es">Hasta la semana que viene.</td><td class="lit">till the week that comes</td><td class="ja">また来週。</td></tr>
+      <tr><td class="es">Nos vemos.</td><td class="lit">(we) see ourselves</td><td class="ja">またね。</td></tr>
+      <tr><td class="es">Cuídate.</td><td class="lit">care yourself (familiar)</td><td class="ja">気をつけて。（親しい）</td></tr>
+      <tr><td class="es">Cuídese.</td><td class="lit">care yourself (formal)</td><td class="ja">お気をつけて。（丁寧）</td></tr>
+    </tbody>
+  </table>
 </main>
 
 <footer class="site-footer">
