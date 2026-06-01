@@ -1,36 +1,141 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ingenieria</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>工学の世界 – El mundo de la ingeniería</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-title { font-size: 1.6rem; font-weight: bold; margin-bottom: 0.3rem; }
+    .page-title span { color: #c8501a; font-size: 1rem; font-weight: normal; }
+
+    .intro {
+      background: #fffaf7;
+      border-left: 4px solid #c8501a;
+      border-radius: 0 8px 8px 0;
+      padding: 0.8rem 1.2rem;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.93rem;
+      line-height: 1.7;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.2rem;
+      margin-top: 1rem;
+    }
+    .category {
+      background: #fffaf7;
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      box-shadow: 2px 4px 12px rgba(200,80,26,0.1);
+    }
+    .category h3 {
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: white;
+      background: #c8501a;
+      margin: -1rem -1.2rem 0.8rem;
+      padding: 0.5rem 1rem;
+      border-radius: 10px 10px 0 0;
+    }
+    .category ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .category ul li {
+      padding: 0.25rem 0;
+      font-size: 0.9rem;
+      border-bottom: 1px solid #f0e0d6;
+      color: #c8501a;
+      font-weight: 500;
+    }
+    .category ul li:last-child { border-bottom: none; }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <a href="campos_de_estudio.html" class="back-link">← 学問の世界に戻る</a>
 
-<header class="site-header">
-  <a href="menu.html"><div class="site-title">¡Vamos a aprender español!</div></a>
-  <div class="site-subtitle">Curso de español &nbsp;·&nbsp; スペイン語を楽しく覚えよう！</div>
-</header>
+    <div class="page-title">工学の世界 <span>/ El mundo de la ingeniería</span></div>
 
-<nav class="site-nav">
-  <a href="introduccion.html">スペイン語とは</a>
-  <a href="pronunciacion.html">発音</a>
-  <a href="como_se_dice.html">¿Cómo se dice?</a>
-</nav>
+    <div class="intro">
+      欧米では、工学は一般の大学とは別の高等専門学校（高等教育機関）で発達してきました。スペインなどでは農学も工学の一部として扱われています。工学は多くの学問分野と関連しています。
+    </div>
 
-<main class="site-main">
-  <a class="back-link" href="javascript:history.back()">← 戻る</a>
-  <h1 class="page-title">ingenieria</h1>
-  <div class="page-description">> 工学の世界 El mundo de ingeniería 欧米では、工学は一般の大学とは別の高等専門学校（高等教育機関）で発達してきました。スペインなどでは農学も工学の一部として扱われているようです。いずれにしても、工学は多くの学問分野と関連しています Del mar Ingeniería marítima Ingeniería naval Hidrodinámica Ciencias de la Tierra Ingeniería geotécnica Ingeniería agronómica Del aire y el espacio Ingeniería aeronáutica Ingeniería aeroespacial Astronáutica Administrativas y diseño Ingeniería administrativa Ingeniería industrial Ingeniería de organización industrial Ingeniería logística Ingeniería de la seguridad Ingeniería de la arquitectura Derivadas de la física y química Ingeniería física Ingeniería nuclear Ingeniería acústica Ingeniería mecatrónica Ingeniería automática Ingeniería de control Ingeniería de organización industrial Ingeniería eléctrica Ingeniería electrónica Ingeniería de componentes Ingeniería mecánica Ingeniería civil Ingeniería de los materiales Ingeniería estructural Ingeniería hidráulica Ingeniería de infraestructuras víales Ingeniería de transportes Ingeniería química Ingeniería metal</div>
-  <div class="image-grid">
+    <div class="grid">
 
+      <div class="category">
+        <h3>🌊 海洋・地球 / Del mar y la Tierra</h3>
+        <ul>
+          <li>Ingeniería marítima</li>
+          <li>Ingeniería naval</li>
+          <li>Hidrodinámica</li>
+          <li>Ingeniería geotécnica</li>
+          <li>Ingeniería agronómica</li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h3>✈️ 航空・宇宙 / Del aire y el espacio</h3>
+        <ul>
+          <li>Ingeniería aeronáutica</li>
+          <li>Ingeniería aeroespacial</li>
+          <li>Astronáutica</li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h3>🏭 管理・設計 / Administrativas y diseño</h3>
+        <ul>
+          <li>Ingeniería administrativa</li>
+          <li>Ingeniería industrial</li>
+          <li>Ingeniería logística</li>
+          <li>Ingeniería de la seguridad</li>
+          <li>Ingeniería de la arquitectura</li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h3>⚡ 電気・電子・機械 / Eléctrica y mecánica</h3>
+        <ul>
+          <li>Ingeniería eléctrica</li>
+          <li>Ingeniería electrónica</li>
+          <li>Ingeniería mecánica</li>
+          <li>Ingeniería mecatrónica</li>
+          <li>Ingeniería automática</li>
+          <li>Ingeniería de control</li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h3>🔬 物理・化学系 / Física y química</h3>
+        <ul>
+          <li>Ingeniería física</li>
+          <li>Ingeniería nuclear</li>
+          <li>Ingeniería acústica</li>
+          <li>Ingeniería química</li>
+          <li>Ingeniería de los materiales</li>
+          <li>Ingeniería metalúrgica</li>
+        </ul>
+      </div>
+
+      <div class="category">
+        <h3>🏗️ 土木・建設 / Civil e infraestructuras</h3>
+        <ul>
+          <li>Ingeniería civil</li>
+          <li>Ingeniería estructural</li>
+          <li>Ingeniería hidráulica</li>
+          <li>Ingeniería de infraestructuras viales</li>
+          <li>Ingeniería de transportes</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <footer>© Grupo Moreral</footer>
   </div>
-</main>
-
-<footer class="site-footer">
-  &copy; Grupo Moreral
-</footer>
-
 </body>
 </html>
