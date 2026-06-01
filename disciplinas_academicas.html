@@ -1,36 +1,123 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>disciplinas_academicas</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>学問分野 – Disciplinas académicas</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-title { font-size: 1.6rem; font-weight: bold; margin-bottom: 1.5rem; }
+    .page-title span { color: #c8501a; font-size: 1rem; font-weight: normal; }
+
+    .section-header {
+      background: #c8501a;
+      color: white;
+      font-weight: bold;
+      padding: 0.4rem 1rem;
+      border-radius: 6px;
+      margin: 1.8rem 0 0.6rem;
+      font-size: 1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.93rem;
+      margin-bottom: 0.5rem;
+    }
+    th {
+      background: #f5ede6;
+      color: #6b3a2a;
+      padding: 0.45rem 0.8rem;
+      text-align: left;
+      font-weight: bold;
+      border-bottom: 2px solid #c8501a;
+    }
+    td {
+      padding: 0.4rem 0.8rem;
+      border-bottom: 1px solid #f0e0d6;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    .ja { font-weight: 600; color: #333; }
+    .es { color: #c8501a; font-weight: 600; }
+
+    .theme-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 0.6rem;
+      margin-bottom: 1.5rem;
+    }
+    .theme-card {
+      background: #fffaf7;
+      border: 1px solid #e8c8b8;
+      border-radius: 8px;
+      padding: 0.5rem 0.8rem;
+      font-size: 0.88rem;
+      line-height: 1.5;
+    }
+    .theme-card .ja { font-size: 0.92rem; }
+    .theme-card .es { font-size: 0.82rem; display: block; }
+    .theme-card .en { font-size: 0.78rem; color: #4a7a9b; display: block; }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <a href="campos_de_estudio.html" class="back-link">← 学問の世界に戻る</a>
 
-<header class="site-header">
-  <a href="menu.html"><div class="site-title">¡Vamos a aprender español!</div></a>
-  <div class="site-subtitle">Curso de español &nbsp;·&nbsp; スペイン語を楽しく覚えよう！</div>
-</header>
+    <div class="page-title">学問分野 <span>/ Disciplinas académicas</span></div>
 
-<nav class="site-nav">
-  <a href="introduccion.html">スペイン語とは</a>
-  <a href="pronunciacion.html">発音</a>
-  <a href="como_se_dice.html">¿Cómo se dice?</a>
-</nav>
+    <!-- テーマ別キーワード -->
+    <div class="section-header">主要テーマ / Temas principales</div>
+    <div class="theme-grid">
+      <div class="theme-card"><span class="ja">思想</span><span class="es">filosofía</span><span class="en">philosophy</span></div>
+      <div class="theme-card"><span class="ja">倫理</span><span class="es">ética</span><span class="en">ethics</span></div>
+      <div class="theme-card"><span class="ja">文学</span><span class="es">literatura</span><span class="en">literature</span></div>
+      <div class="theme-card"><span class="ja">言語表現</span><span class="es">expresiones lingüísticas</span><span class="en">linguistic expression</span></div>
+      <div class="theme-card"><span class="ja">芸術</span><span class="es">arte</span><span class="en">art</span></div>
+      <div class="theme-card"><span class="ja">文化</span><span class="es">cultura</span><span class="en">culture</span></div>
+      <div class="theme-card"><span class="ja">歴史</span><span class="es">historia</span><span class="en">history</span></div>
+      <div class="theme-card"><span class="ja">社会</span><span class="es">sociedad</span><span class="en">society</span></div>
+      <div class="theme-card"><span class="ja">経済</span><span class="es">economía</span><span class="en">economy</span></div>
+      <div class="theme-card"><span class="ja">法</span><span class="es">derecho</span><span class="en">law</span></div>
+      <div class="theme-card"><span class="ja">政治</span><span class="es">política</span><span class="en">politics</span></div>
+      <div class="theme-card"><span class="ja">ジェンダー</span><span class="es">género</span><span class="en">gender</span></div>
+      <div class="theme-card"><span class="ja">自然</span><span class="es">naturaleza</span><span class="en">nature</span></div>
+      <div class="theme-card"><span class="ja">科学</span><span class="es">ciencias</span><span class="en">science</span></div>
+      <div class="theme-card"><span class="ja">技術</span><span class="es">tecnología</span><span class="en">technology</span></div>
+      <div class="theme-card"><span class="ja">エネルギー</span><span class="es">energía</span><span class="en">energy</span></div>
+      <div class="theme-card"><span class="ja">生命</span><span class="es">vida</span><span class="en">life</span></div>
+      <div class="theme-card"><span class="ja">環境</span><span class="es">medio ambiente</span><span class="en">environment</span></div>
+      <div class="theme-card"><span class="ja">情報</span><span class="es">información</span><span class="en">information</span></div>
+    </div>
 
-<main class="site-main">
-  <a class="back-link" href="javascript:history.back()">← 戻る</a>
-  <h1 class="page-title">disciplinas_academicas</h1>
-  <div class="page-description">> 学問分野 Disciplinas académicas 学問分野 academic disciplines disciplinas académicas 思想 phylosophy filosofía 倫理 ethics ética 文学 literature literatura 言語表現 linguistic expression expresiones lingüísticas 芸術 art arte 人間 humanity humanidad 文化 culture cultura 歴史 history historia 社会 society sociedad 経済 economy economía 法 law derecho 政治 politics política ジェンダー gender género 自然 nature naturaleza 科学 science ciencias 技術 technology tecnología エネルギー energy energía 生命 life vida 環境 environment medio ambiente 情報 information información 人文科学 humanities humanidades 論理学 logic lógica 哲学 philosophy filosofía 倫理学 ethics ética 文学 literature literatura 宗教学 study of religion estudios de religión 教育学 education/pedagogy educación/pedagogía 歴史学 history historia 言語学 linguistics lingüísticas 社会科学 social science ciencias sociales 社会学 sociology sociología 心理学 psychology psicología 法学 law derecho 日本国憲法 Constitution of Japan constitución del Japón 政治学 political science ciencias políticas 経済学 economics economía / económica</div>
-  <div class="image-grid">
+    <!-- 人文科学 -->
+    <div class="section-header">人文科学 / Humanidades</div>
+    <table>
+      <tr><th>日本語</th><th>Español</th><th>English</th></tr>
+      <tr><td class="ja">論理学</td><td class="es">lógica</td><td>logic</td></tr>
+      <tr><td class="ja">哲学</td><td class="es">filosofía</td><td>philosophy</td></tr>
+      <tr><td class="ja">倫理学</td><td class="es">ética</td><td>ethics</td></tr>
+      <tr><td class="ja">文学</td><td class="es">literatura</td><td>literature</td></tr>
+      <tr><td class="ja">宗教学</td><td class="es">estudios de religión</td><td>study of religion</td></tr>
+      <tr><td class="ja">教育学</td><td class="es">educación / pedagogía</td><td>education / pedagogy</td></tr>
+      <tr><td class="ja">歴史学</td><td class="es">historia</td><td>history</td></tr>
+      <tr><td class="ja">言語学</td><td class="es">lingüística</td><td>linguistics</td></tr>
+    </table>
 
+    <!-- 社会科学 -->
+    <div class="section-header">社会科学 / Ciencias sociales</div>
+    <table>
+      <tr><th>日本語</th><th>Español</th><th>English</th></tr>
+      <tr><td class="ja">社会学</td><td class="es">sociología</td><td>sociology</td></tr>
+      <tr><td class="ja">心理学</td><td class="es">psicología</td><td>psychology</td></tr>
+      <tr><td class="ja">法学</td><td class="es">derecho</td><td>law</td></tr>
+      <tr><td class="ja">日本国憲法</td><td class="es">Constitución del Japón</td><td>Constitution of Japan</td></tr>
+      <tr><td class="ja">政治学</td><td class="es">ciencias políticas</td><td>political science</td></tr>
+      <tr><td class="ja">経済学</td><td class="es">economía</td><td>economics</td></tr>
+    </table>
+
+    <footer>© Grupo Moreral</footer>
   </div>
-</main>
-
-<footer class="site-footer">
-  &copy; Grupo Moreral
-</footer>
-
 </body>
 </html>
