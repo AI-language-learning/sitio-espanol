@@ -1,36 +1,162 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>campos_de_estudio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>学問の世界 – El mundo académico</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-title { font-size: 1.6rem; font-weight: bold; margin-bottom: 0.3rem; }
+    .page-title span { color: #c8501a; font-size: 1rem; font-weight: normal; }
+
+    .intro {
+      background: #fffaf7;
+      border-left: 4px solid #c8501a;
+      border-radius: 0 8px 8px 0;
+      padding: 0.8rem 1.2rem;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.93rem;
+      line-height: 1.7;
+    }
+    .suffix {
+      font-family: monospace;
+      font-size: 0.95rem;
+      color: #c8501a;
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.2rem;
+      margin-top: 1rem;
+    }
+    .category {
+      background: #fffaf7;
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      box-shadow: 2px 4px 12px rgba(200,80,26,0.1);
+    }
+    .category h3 {
+      font-size: 0.95rem;
+      font-weight: bold;
+      color: white;
+      background: #c8501a;
+      margin: -1rem -1.2rem 0.8rem;
+      padding: 0.5rem 1rem;
+      border-radius: 10px 10px 0 0;
+    }
+    .category ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .category ul li {
+      padding: 0.25rem 0;
+      font-size: 0.93rem;
+      border-bottom: 1px solid #f0e0d6;
+      line-height: 1.5;
+    }
+    .category ul li:last-child { border-bottom: none; }
+    .subcategory {
+      font-weight: bold;
+      color: #6b3a2a;
+      margin-top: 0.6rem;
+      font-size: 0.88rem;
+    }
+    .sub-item {
+      padding-left: 1rem !important;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <a href="menu.html" class="back-link">← メニューに戻る</a>
 
-<header class="site-header">
-  <a href="menu.html"><div class="site-title">¡Vamos a aprender español!</div></a>
-  <div class="site-subtitle">Curso de español &nbsp;·&nbsp; スペイン語を楽しく覚えよう！</div>
-</header>
+    <div class="page-title">学問の世界 <span>/ El mundo académico</span></div>
 
-<nav class="site-nav">
-  <a href="introduccion.html">スペイン語とは</a>
-  <a href="pronunciacion.html">発音</a>
-  <a href="como_se_dice.html">¿Cómo se dice?</a>
-</nav>
+    <div class="intro">
+      スペイン語や英語で学問領域を表す言葉の多くはラテン語を語源としており、互いによく似ています。語の構成要素や接尾辞の対応を知っておくと便利です。
+      <div class="suffix">
+        -sophy = -sofía（知）　　-logy = -logía（学問）　　-nomy = -nomía（規則・管理）
+      </div>
+    </div>
 
-<main class="site-main">
-  <a class="back-link" href="javascript:history.back()">← 戻る</a>
-  <h1 class="page-title">campos_de_estudio</h1>
-  <div class="page-description">> 学問の世界 El mundo académico スペイン語や英語で学問領域を表す言葉の多くはラテン語を語源としており、互いに似ています。語の構成要素や接尾辞がどう対応しているか知っておくと便利です。 -sophy = -sofía （知） -logy = -logía（学問） -nomy = -nomía（規則、管理） Cultura, Humanidades Arte Folklore Filosofía Historia Lingüística Literatura Música Teatro Ciencias sociales Antropología Comunicación Derecho Economía Educación Geografía Política Psicología Religión Sociología Ciencias naturales y exactas Astronomía Biología Ciencias de la Tierra Física Geología Matemática Química Ciencias aplicadas Agricultura Agricultura Agronomía Ganadería Pesquería Silvicultura Ciencias de la salud Bioquímica Enfermería Farmacia Medicina Odontología Computación Educación física Informática Ingeniería</div>
-  <div class="image-grid">
+    <div class="grid">
 
+      <!-- 文化・人文科学 -->
+      <div class="category">
+        <h3>文化・人文科学 / Cultura y Humanidades</h3>
+        <ul>
+          <li>Arte（芸術）</li>
+          <li>Folklore（民俗学）</li>
+          <li>Filosofía（哲学）</li>
+          <li>Historia（歴史）</li>
+          <li>Lingüística（言語学）</li>
+          <li>Literatura（文学）</li>
+          <li>Música（音楽）</li>
+          <li>Teatro（演劇）</li>
+        </ul>
+      </div>
+
+      <!-- 社会科学 -->
+      <div class="category">
+        <h3>社会科学 / Ciencias sociales</h3>
+        <ul>
+          <li>Antropología（人類学）</li>
+          <li>Comunicación（コミュニケーション学）</li>
+          <li>Derecho（法律）</li>
+          <li>Economía（経済学）</li>
+          <li>Educación（教育学）</li>
+          <li>Geografía（地理学）</li>
+          <li>Política（政治学）</li>
+          <li>Psicología（心理学）</li>
+          <li>Religión（宗教学）</li>
+          <li>Sociología（社会学）</li>
+        </ul>
+      </div>
+
+      <!-- 自然科学・理学 -->
+      <div class="category">
+        <h3>自然科学・理学 / Ciencias naturales y exactas</h3>
+        <ul>
+          <li>Astronomía（天文学）</li>
+          <li>Biología（生物学）</li>
+          <li>Ciencias de la Tierra（地球科学）</li>
+          <li>Física（物理学）</li>
+          <li>Geología（地質学）</li>
+          <li>Matemática（数学）</li>
+          <li>Química（化学）</li>
+        </ul>
+      </div>
+
+      <!-- 応用科学 -->
+      <div class="category">
+        <h3>応用科学 / Ciencias aplicadas</h3>
+        <ul>
+          <li class="subcategory">農学 / Agricultura</li>
+          <li class="sub-item">Agronomía（農芸学）</li>
+          <li class="sub-item">Ganadería（畜産学）</li>
+          <li class="sub-item">Pesquería（水産学）</li>
+          <li class="sub-item">Silvicultura（林学）</li>
+          <li class="subcategory">保健・医療 / Ciencias de la salud</li>
+          <li class="sub-item">Bioquímica（生化学）</li>
+          <li class="sub-item">Enfermería（看護学）</li>
+          <li class="sub-item">Farmacia（薬学）</li>
+          <li class="sub-item">Medicina（医学）</li>
+          <li class="sub-item">Odontología（歯学）</li>
+          <li class="subcategory">その他</li>
+          <li class="sub-item">Computación / Informática（情報科学）</li>
+          <li class="sub-item">Educación física（体育）</li>
+          <li class="sub-item">Ingeniería（工学）</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <footer>© Grupo Moreral</footer>
   </div>
-</main>
-
-<footer class="site-footer">
-  &copy; Grupo Moreral
-</footer>
-
 </body>
 </html>
