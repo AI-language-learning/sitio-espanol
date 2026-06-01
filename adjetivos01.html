@@ -185,7 +185,10 @@
       if (!window.speechSynthesis) return;
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(toSpeechText(text));
-      utterance.lang = 'es-ES';
+      const voices = window.speechSynthesis.getVoices();
+      const paulina = voices.find(v => v.name === "Paulina");
+      if (paulina) utterance.voice = paulina;
+      utterance.lang = "es-ES";
       utterance.rate = 0.9;
       window.speechSynthesis.speak(utterance);
     }
