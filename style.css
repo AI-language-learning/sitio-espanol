@@ -1,0 +1,137 @@
+/* ===== Moreral Spanish Site - Common Style ===== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+  background: #fffdf8;
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ===== ヘッダー ===== */
+.site-header {
+  text-align: center;
+  padding: 1.2rem 1rem 0.8rem;
+  border-bottom: 2px solid #c8501a;
+  margin-bottom: 1.5rem;
+}
+
+.site-header a {
+  text-decoration: none;
+}
+
+.site-header .site-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #c8501a;
+  letter-spacing: 0.05em;
+}
+
+.site-header .site-subtitle {
+  font-size: 12px;
+  color: #999;
+  letter-spacing: 0.1em;
+  margin-top: 0.2rem;
+}
+
+/* ===== ナビゲーション ===== */
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.5rem 1rem;
+  background: #faf6f0;
+  border-bottom: 1px solid #e8e0d8;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #666;
+  padding: 0.3rem 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.site-nav a:hover {
+  color: #c8501a;
+  border-bottom-color: #c8501a;
+}
+
+/* ===== メインコンテンツ ===== */
+.site-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e8e0d8;
+}
+
+.page-title span {
+  font-size: 14px;
+  color: #999;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.page-description {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* ===== 画像グリッド ===== */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: block;
+}
+
+/* ===== 戻るボタン ===== */
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 13px;
+  color: #c8501a;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* ===== フッター ===== */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 11px;
+  color: #bbb;
+  border-top: 1px solid #ece8e0;
+  margin-top: 3rem;
+}
+
+/* ===== iWebの残骸を非表示 ===== */
+#nav_layer, #header_layer, .bumper, .spacer,
+script, .tinyText { display: none !important; }
