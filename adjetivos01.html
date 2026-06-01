@@ -1,62 +1,284 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>性格や外見を表す形容詞</title>
-<link rel="stylesheet" href="style.css">
-<style>
-  .construction {
-    text-align: center;
-    padding: 4rem 1.5rem;
-    background: #fff8f2;
-    border-radius: 12px;
-    border: 1px dashed #c8501a;
-    margin-top: 2rem;
-  }
-  .construction .icon {
-    font-size: 48px;
-    margin-bottom: 1rem;
-  }
-  .construction h2 {
-    color: #c8501a;
-    font-size: 18px;
-    margin-bottom: 0.75rem;
-  }
-  .construction p {
-    color: #666;
-    font-size: 14px;
-    line-height: 1.7;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>形容詞 – Adjetivos</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-title { font-size: 1.5rem; font-weight: bold; margin-bottom: 1rem; }
+    .page-title span { color: #c8501a; font-size: 1rem; font-weight: normal; }
+
+    .mode-buttons {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+    .mode-btn {
+      padding: 0.5rem 1.1rem;
+      border: 2px solid #c8501a;
+      border-radius: 20px;
+      background: white;
+      color: #c8501a;
+      font-size: 0.9rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .mode-btn.active, .mode-btn:hover {
+      background: #c8501a;
+      color: white;
+    }
+
+    .section-header {
+      background: #c8501a;
+      color: white;
+      font-weight: bold;
+      padding: 0.4rem 1rem;
+      border-radius: 6px;
+      margin: 1.5rem 0 0.8rem;
+      font-size: 1rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 4px 6px 16px rgba(200,80,26,0.15);
+      background: #fffaf7;
+      border: 1px solid #e8c8b8;
+      padding: 1rem 0.8rem;
+      text-align: center;
+      min-height: 110px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.3rem;
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-3px); }
+
+    .card .es {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #c8501a;
+    }
+    .card .en {
+      font-size: 0.85rem;
+      color: #4a7a9b;
+      font-weight: 600;
+    }
+    .card .ja {
+      font-size: 0.82rem;
+      color: #666;
+    }
+    .card .antonym {
+      font-size: 0.78rem;
+      color: #aaa;
+      margin-top: 0.2rem;
+    }
+
+    /* モード別表示制御 */
+    .hide-es .es { visibility: hidden; }
+    .hide-en .en { visibility: hidden; }
+    .hide-ja .ja { visibility: hidden; }
+    .show-only-ja .es { visibility: hidden; }
+    .show-only-ja .en { visibility: hidden; }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <a href="como_se_dice.html" class="back-link">← ¿Cómo se dice?に戻る</a>
 
-<header class="site-header">
-  <a href="menu.html"><div class="site-title">¡Vamos a aprender español!</div></a>
-  <div class="site-subtitle">Curso de español &nbsp;·&nbsp; スペイン語を楽しく覚えよう！</div>
-</header>
+    <div class="page-title">形容詞（性格・外見） <span>/ Adjetivos</span></div>
 
-<nav class="site-nav">
-  <a href="introduccion.html">スペイン語とは</a>
-  <a href="pronunciacion.html">発音</a>
-  <a href="como_se_dice.html">¿Cómo se dice?</a>
-</nav>
+    <div class="mode-buttons">
+      <button class="mode-btn active" onclick="setMode('all', this)">すべて表示</button>
+      <button class="mode-btn" onclick="setMode('hide-es', this)">スペイン語を隠す</button>
+      <button class="mode-btn" onclick="setMode('hide-en', this)">英語を隠す</button>
+      <button class="mode-btn" onclick="setMode('hide-ja', this)">日本語を隠す</button>
+      <button class="mode-btn" onclick="setMode('show-only-ja', this)">日本語のみ</button>
+    </div>
 
-<main class="site-main">
-  <a class="back-link" href="como_se_dice.html">← ¿Cómo se dice? に戻る</a>
-  <h1 class="page-title">性格や外見を表す形容詞 <span>Adjetivos</span></h1>
+    <div id="cardGrid">
 
-  <div class="construction">
-    <div class="icon">🚧</div>
-    <h2>このページは工事中です</h2>
-    <p>もうしばらくお待ちください。</p>
+      <div class="section-header">性格 / Personalidad</div>
+      <div class="card-grid">
+        <div class="card">
+          <div class="es">simpático/a</div>
+          <div class="en">nice, friendly</div>
+          <div class="ja">感じがいい</div>
+          <div class="antonym">↔ antipático/a</div>
+        </div>
+        <div class="card">
+          <div class="es">antipático/a</div>
+          <div class="en">unfriendly</div>
+          <div class="ja">感じが悪い</div>
+          <div class="antonym">↔ simpático/a</div>
+        </div>
+        <div class="card">
+          <div class="es">amable</div>
+          <div class="en">kind, gentle</div>
+          <div class="ja">親切な</div>
+        </div>
+        <div class="card">
+          <div class="es">divertido/a</div>
+          <div class="en">fun, funny</div>
+          <div class="ja">楽しい、おもしろい</div>
+          <div class="antonym">↔ aburrido/a</div>
+        </div>
+        <div class="card">
+          <div class="es">aburrido/a</div>
+          <div class="en">boring</div>
+          <div class="ja">退屈な</div>
+          <div class="antonym">↔ divertido/a</div>
+        </div>
+        <div class="card">
+          <div class="es">inteligente</div>
+          <div class="en">intelligent</div>
+          <div class="ja">頭がいい</div>
+        </div>
+        <div class="card">
+          <div class="es">tonto/a</div>
+          <div class="en">silly, foolish</div>
+          <div class="ja">おろかな</div>
+        </div>
+        <div class="card">
+          <div class="es">trabajador/a</div>
+          <div class="en">hardworking</div>
+          <div class="ja">勤勉な</div>
+          <div class="antonym">↔ perezoso/a</div>
+        </div>
+        <div class="card">
+          <div class="es">perezoso/a</div>
+          <div class="en">lazy</div>
+          <div class="ja">怠惰な</div>
+          <div class="antonym">↔ trabajador/a</div>
+        </div>
+        <div class="card">
+          <div class="es">serio/a</div>
+          <div class="en">serious</div>
+          <div class="ja">まじめな</div>
+        </div>
+        <div class="card">
+          <div class="es">generoso/a</div>
+          <div class="en">generous</div>
+          <div class="ja">気前がいい</div>
+          <div class="antonym">↔ tacaño/a</div>
+        </div>
+        <div class="card">
+          <div class="es">tacaño/a</div>
+          <div class="en">stingy</div>
+          <div class="ja">けちな</div>
+          <div class="antonym">↔ generoso/a</div>
+        </div>
+        <div class="card">
+          <div class="es">tímido/a</div>
+          <div class="en">shy</div>
+          <div class="ja">内気な</div>
+        </div>
+        <div class="card">
+          <div class="es">extrovertido/a</div>
+          <div class="en">outgoing</div>
+          <div class="ja">外向的な</div>
+          <div class="antonym">↔ introvertido/a</div>
+        </div>
+        <div class="card">
+          <div class="es">honesto/a</div>
+          <div class="en">honest</div>
+          <div class="ja">正直な</div>
+        </div>
+        <div class="card">
+          <div class="es">optimista</div>
+          <div class="en">optimistic</div>
+          <div class="ja">楽観的な</div>
+          <div class="antonym">↔ pesimista</div>
+        </div>
+      </div>
+
+      <div class="section-header">外見 / Apariencia física</div>
+      <div class="card-grid">
+        <div class="card">
+          <div class="es">alto/a</div>
+          <div class="en">tall</div>
+          <div class="ja">背が高い</div>
+          <div class="antonym">↔ bajo/a</div>
+        </div>
+        <div class="card">
+          <div class="es">bajo/a</div>
+          <div class="en">short</div>
+          <div class="ja">背が低い</div>
+          <div class="antonym">↔ alto/a</div>
+        </div>
+        <div class="card">
+          <div class="es">delgado/a</div>
+          <div class="en">slim, thin</div>
+          <div class="ja">細い、やせた</div>
+          <div class="antonym">↔ gordo/a</div>
+        </div>
+        <div class="card">
+          <div class="es">gordo/a</div>
+          <div class="en">fat, overweight</div>
+          <div class="ja">太った</div>
+          <div class="antonym">↔ delgado/a</div>
+        </div>
+        <div class="card">
+          <div class="es">guapo/a</div>
+          <div class="en">good-looking</div>
+          <div class="ja">ハンサムな、きれいな</div>
+          <div class="antonym">↔ feo/a</div>
+        </div>
+        <div class="card">
+          <div class="es">feo/a</div>
+          <div class="en">ugly</div>
+          <div class="ja">醜い</div>
+          <div class="antonym">↔ guapo/a</div>
+        </div>
+        <div class="card">
+          <div class="es">joven</div>
+          <div class="en">young</div>
+          <div class="ja">若い</div>
+          <div class="antonym">↔ viejo/a</div>
+        </div>
+        <div class="card">
+          <div class="es">viejo/a</div>
+          <div class="en">old</div>
+          <div class="ja">年老いた</div>
+          <div class="antonym">↔ joven</div>
+        </div>
+        <div class="card">
+          <div class="es">fuerte</div>
+          <div class="en">strong</div>
+          <div class="ja">強い</div>
+          <div class="antonym">↔ débil</div>
+        </div>
+        <div class="card">
+          <div class="es">débil</div>
+          <div class="en">weak</div>
+          <div class="ja">弱い</div>
+          <div class="antonym">↔ fuerte</div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>© Grupo Moreral</footer>
   </div>
-</main>
 
-<footer class="site-footer">
-  &copy; Grupo Moreral
-</footer>
-
+  <script>
+    function setMode(mode, btn) {
+      const grid = document.getElementById('cardGrid');
+      grid.className = mode === 'all' ? '' : mode;
+      document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+  </script>
 </body>
 </html>
