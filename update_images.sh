@@ -8,7 +8,6 @@ cd "$SITE_DIR" || exit 1
 count=0
 
 for htmlfile in *.html; do
-  # スキップするページ
   [[ "$htmlfile" == "index.html" ]] && continue
   [[ "$htmlfile" == "menu.html" ]] && continue
   [[ "$htmlfile" == "menu02.html" ]] && continue
@@ -16,31 +15,43 @@ for htmlfile in *.html; do
   [[ "$htmlfile" == "introduccion.html" ]] && continue
   [[ "$htmlfile" == "pronunciacion.html" ]] && continue
   [[ "$htmlfile" == "mucho_gusto.html" ]] && continue
+  [[ "$htmlfile" == "expresiones_en_la_clase.html" ]] && continue
 
   basename="${htmlfile%.html}"
-  filesdir="${basename}_files/Media"
+  filesdir="${basename}_files"
 
-  # Mediaフォルダがなければスキップ
   [ -d "$filesdir" ] || continue
 
   # タイトルを取得
   title=$(grep -o '<title>[^<]*</title>' "$htmlfile" | sed 's/<[^>]*>//g')
   [ -z "$title" ] && title="$basename"
 
-  # 画像リストを生成（Media/1/1.jpg, Media/2/2.jpg ...）
   imglist=""
-  for subdir in "$filesdir"/*/; do
-    num=$(basename "$subdir")
-    img="${basename}_files/Media/${num}/${num}.jpg"
-    if [ -f "${basename}_files/Media/${num}/${num}.jpg" ]; then
-      imglist="${imglist}    <img src=\"${img}\" alt=\"${title} ${num}\">\n"
-    fi
-  done
 
-  # 画像がなければスキップ
+  # パターン1: _files/Media/1/1.jpg 形式
+  if [ -d "${filesdir}/Media" ]; then
+    for subdir in "${filesdir}/Media"/*/; do
+      num=$(basename "$subdir")
+      [[ "$num" == "dummy" ]] && continue
+      img="${filesdir}/Media/${num}/${num}.jpg"
+      if [ -f "$img" ]; then
+        imglist="${imglist}    <img src=\"${img}\" alt=\"${title} ${num}\">\n"
+      fi
+    done
+  fi
+
+  # パターン2: _files/*.jpg 形式（Media直下にない場合）
+  if [ -z "$imglist" ]; then
+    for img in "${filesdir}"/*.jpg; do
+      [ -f "$img" ] || continue
+      fname=$(basename "$img")
+      [[ "$fname" == shapeimage* ]] && continue
+      imglist="${imglist}    <img src=\"${img}\" alt=\"${title}\">\n"
+    done
+  fi
+
   [ -z "$imglist" ] && continue
 
-  # 新しいHTMLを生成
   cat > "$htmlfile" << HTMLEOF
 <!DOCTYPE html>
 <html lang="ja">
