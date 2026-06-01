@@ -1,7 +1,4 @@
 #!/bin/bash
-# como_se_diceサブページの画像を一括修正するスクリプト
-# 実行場所: Siteフォルダ内
-
 SITE_DIR="/Volumes/SSD2019/書類_202605まで/Site"
 cd "$SITE_DIR" || exit 1
 
@@ -22,31 +19,30 @@ for htmlfile in *.html; do
 
   [ -d "$filesdir" ] || continue
 
-  # タイトルを取得
   title=$(grep -o '<title>[^<]*</title>' "$htmlfile" | sed 's/<[^>]*>//g')
   [ -z "$title" ] && title="$basename"
 
   imglist=""
 
-  # パターン1: _files/Media/1/1.jpg 形式
+  # パターン1: _files/Media/N/N.jpg （dummyは除外）
   if [ -d "${filesdir}/Media" ]; then
     for subdir in "${filesdir}/Media"/*/; do
       num=$(basename "$subdir")
       [[ "$num" == "dummy" ]] && continue
       img="${filesdir}/Media/${num}/${num}.jpg"
       if [ -f "$img" ]; then
-        imglist="${imglist}    <img src=\"${img}\" alt=\"${title} ${num}\">\n"
+        imglist="${imglist}<img src=\"${img}\" alt=\"${title} ${num}\">\n"
       fi
     done
   fi
 
-  # パターン2: _files/*.jpg 形式（Media直下にない場合）
+  # パターン2: _files/*.jpg （Mediaが空またはdummyのみの場合）
   if [ -z "$imglist" ]; then
     for img in "${filesdir}"/*.jpg; do
       [ -f "$img" ] || continue
       fname=$(basename "$img")
       [[ "$fname" == shapeimage* ]] && continue
-      imglist="${imglist}    <img src=\"${img}\" alt=\"${title}\">\n"
+      imglist="${imglist}<img src=\"${img}\" alt=\"${title}\">\n"
     done
   fi
 
@@ -78,7 +74,7 @@ for htmlfile in *.html; do
   <a class="back-link" href="como_se_dice.html">← ¿Cómo se dice? に戻る</a>
   <h1 class="page-title">${title}</h1>
   <div class="image-grid">
-$(echo -e "$imglist")
+$(printf "$imglist")
   </div>
 </main>
 
