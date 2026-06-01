@@ -3,8 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>スペイン語の発音 pronunciación</title>
+<title>スペイン語の発音 Pronunciación</title>
 <link rel="stylesheet" href="style.css">
+<style>
+  .pron-section {
+    margin-bottom: 2rem;
+  }
+  .pron-section h2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #c8501a;
+    margin-bottom: 0.75rem;
+    padding-left: 0.6rem;
+    border-left: 3px solid #c8501a;
+  }
+  .pron-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  .pron-table th {
+    background: #c8501a;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    font-weight: 600;
+  }
+  .pron-table td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #f0ebe3;
+    color: #444;
+    line-height: 1.7;
+    vertical-align: top;
+  }
+  .pron-table tr:nth-child(even) td {
+    background: #fff8f2;
+  }
+  .pron-table .letter {
+    font-weight: 700;
+    color: #c8501a;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .pron-note {
+    margin-top: 2rem;
+    padding: 1rem 1.25rem;
+    background: #fff8f2;
+    border-radius: 8px;
+    border: 1px solid #e8d0b8;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.8;
+  }
+  .pron-note p { margin-bottom: 0.5rem; }
+</style>
 </head>
 <body>
 
@@ -20,12 +72,83 @@
 </nav>
 
 <main class="site-main">
-  <a class="back-link" href="javascript:history.back()">← 戻る</a>
-  <h1 class="page-title">スペイン語の発音 pronunciación</h1>
-  <div class="page-description">> スペイン語の発音 pronunciación １．スペイン語の綴りと発音の特徴 ◯ 基本的には「ローマ字」読み meta goal, clase class, materiales materials, uno one ◯ 英語にない綴りは &quot;ñ&quot; (eñe) español Spanish, España Spain, mañana tomorrow ２．綴りと発音の関係 （ローマ字読みにならないところに注目して説明） &quot;a&quot; , &quot;e&quot; , &quot;i&quot; , &quot;o&quot; , &quot;u&quot; それぞれ [a] , [e] , [i] , [o] , [u] universidad university, estudiante student, tanto so much, bueno good, piano &quot;y&quot; 単音の場合や語尾では [i]、母音の前では「ヤ」「ジャ」行の発音 y and, Paraguay , Uruguay , yo I, ya already, ayer yesterday &quot;c&quot; 子音や母音 &quot;a , o , u&quot; の前では [k]、母音 &quot;i , e&quot; の前では [s] か [θ] cinco five, curso course, casa house, oficina office, presentación presentation &quot;z&quot; [s] か [θ]、濁らない utilizados utilyzed, González (a family name) &quot;g&quot; 子音や母音 &quot;a , o , u&quot; の前では [g]、母音 &quot;i&quot; ,&quot;e&quot; の前では [x] grande big, gato cat, ingeniería engineering, Argentina Argentine, generoso generous &quot;j&quot; [x] Japón Japan, japonesa Japanese (f.), Julio</div>
-  <div class="image-grid">
+  <h1 class="page-title">スペイン語の発音 <span>Pronunciación</span></h1>
 
+  <div class="pron-section">
+    <h2>１．スペイン語の綴りと発音の特徴</h2>
+    <div class="pron-note">
+      <p>◯ 基本的には「ローマ字」読み<br>
+      <em>meta</em> goal &nbsp;/&nbsp; <em>clase</em> class &nbsp;/&nbsp; <em>materiales</em> materials &nbsp;/&nbsp; <em>uno</em> one</p>
+      <p>◯ 英語にない綴りは <strong>ñ</strong>（eñe）<br>
+      <em>español</em> Spanish &nbsp;/&nbsp; <em>España</em> Spain &nbsp;/&nbsp; <em>mañana</em> tomorrow</p>
+    </div>
   </div>
+
+  <div class="pron-section">
+    <h2>２．綴りと発音の関係</h2>
+    <table class="pron-table">
+      <thead>
+        <tr>
+          <th>文字</th>
+          <th>発音</th>
+          <th>例</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="letter">a, e, i, o, u</td>
+          <td>[a] [e] [i] [o] [u]</td>
+          <td>universidad, estudiante, tanto, bueno, piano</td>
+        </tr>
+        <tr>
+          <td class="letter">y</td>
+          <td>単音・語尾では [i]、母音の前では「ヤ」「ジャ」行</td>
+          <td>y (and), Paraguay, yo, ya, ayer</td>
+        </tr>
+        <tr>
+          <td class="letter">c</td>
+          <td>子音・a,o,u の前 → [k]<br>i,e の前 → [s] か [θ]</td>
+          <td>cinco, curso, casa, oficina, presentación</td>
+        </tr>
+        <tr>
+          <td class="letter">z</td>
+          <td>[s] か [θ]（濁らない）</td>
+          <td>utilizados, González</td>
+        </tr>
+        <tr>
+          <td class="letter">g</td>
+          <td>子音・a,o,u の前 → [g]<br>i,e の前 → [x]</td>
+          <td>grande, gato, ingeniería, Argentina, generoso</td>
+        </tr>
+        <tr>
+          <td class="letter">j</td>
+          <td>[x]</td>
+          <td>Japón, japonesa, Julio</td>
+        </tr>
+        <tr>
+          <td class="letter">h</td>
+          <td>無音</td>
+          <td>hablar, hombre, hotel</td>
+        </tr>
+        <tr>
+          <td class="letter">ll</td>
+          <td>[j] か [ʎ]（地域によって異なる）</td>
+          <td>llamar, llegar, pollo</td>
+        </tr>
+        <tr>
+          <td class="letter">rr / r（語頭）</td>
+          <td>巻き舌 [r]</td>
+          <td>perro, carro, rosa</td>
+        </tr>
+        <tr>
+          <td class="letter">qu</td>
+          <td>[k]（u は発音しない）</td>
+          <td>querer, queso, que</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
 </main>
 
 <footer class="site-footer">
