@@ -1,36 +1,145 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>paises</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>世界の国々 – Países del mundo</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-title { font-size: 1.6rem; font-weight: bold; margin-bottom: 0.3rem; }
+    .page-title span { color: #c8501a; }
+
+    .section-header {
+      background: #c8501a;
+      color: white;
+      font-weight: bold;
+      padding: 0.4rem 1rem;
+      border-radius: 6px;
+      margin: 1.5rem 0 0.5rem;
+      font-size: 1rem;
+    }
+    .subsection-header {
+      background: #e8a07a;
+      color: white;
+      font-weight: bold;
+      padding: 0.3rem 1rem;
+      border-radius: 6px;
+      margin: 1rem 0 0.4rem;
+      font-size: 0.95rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+    th {
+      background: #f5ede6;
+      color: #6b3a2a;
+      padding: 0.5rem 0.8rem;
+      text-align: left;
+      font-weight: bold;
+      border-bottom: 2px solid #c8501a;
+    }
+    td {
+      padding: 0.4rem 0.8rem;
+      border-bottom: 1px solid #f0e0d6;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    .spanish { color: #c8501a; font-weight: 600; }
+    .note { font-size: 0.85rem; color: #888; margin-bottom: 1.5rem; }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <a href="menu.html" class="back-link">← メニューに戻る</a>
 
-<header class="site-header">
-  <a href="menu.html"><div class="site-title">¡Vamos a aprender español!</div></a>
-  <div class="site-subtitle">Curso de español &nbsp;·&nbsp; スペイン語を楽しく覚えよう！</div>
-</header>
+    <div class="page-title">世界の国々 <span>/ los países del mundo</span></div>
+    <p class="note">スペイン語圏の国は<span class="spanish">テラコッタ色</span>で表示しています。</p>
 
-<nav class="site-nav">
-  <a href="introduccion.html">スペイン語とは</a>
-  <a href="pronunciacion.html">発音</a>
-  <a href="como_se_dice.html">¿Cómo se dice?</a>
-</nav>
+    <!-- アジア -->
+    <div class="section-header">Asia アジア</div>
+    <table>
+      <tr><th>Región / País</th><th>Capital</th><th>Adjetivo</th></tr>
+      <tr><td>Japón</td><td>Tokio</td><td>japonés/a</td></tr>
+      <tr><td>China</td><td>Beijing</td><td>chino/a</td></tr>
+      <tr><td>Corea del Sur</td><td>Seoul</td><td>coreano/a</td></tr>
+      <tr><td>Corea del Norte</td><td>Pyongyang</td><td>coreano/a</td></tr>
+      <tr><td>las Filipinas</td><td>Manila</td><td>filipino/a</td></tr>
+      <tr><td>India</td><td>Nueva Delhi</td><td>hindú</td></tr>
+    </table>
 
-<main class="site-main">
-  <a class="back-link" href="javascript:history.back()">← 戻る</a>
-  <h1 class="page-title">paises</h1>
-  <div class="page-description">> 世界の国々 los países del mundo Región / País El mundo Asia Japón China Corea del Sur Corea del Norte las Filipinas India África Europa España Portugal Francia Italia Alemania Iglaterra / Reino Unido Rusia las Américas América latina / Latinoamérica Hispanoamérica Iberoamérica América del norte / Norteamérica Canadá los Estados Unidos de América México El Caribe Puerto Rico (Estados Unidos) la República Dominicana Cuba Haití Jamaica América central / Centroamérica Guatemala Honduras El Salvador Nicaragua Costa Rica Panamá América del sur / Sudamérica Venezuela Colombia Ecuador Perú Bolivia Chile Argentina Paraguay Uruguay Brasil Capital Tokio Beijing Seoul Pyongyang Manila Nueva Delhi Madrid Lisboa París Roma Berlín Londres Moscú Ottawa Washington, D. C. la Ciudad de México / México, D. F. San Juan Santo Domingo La Habana Puerto Príncipe Kingston la Ciudad de Guatemala Tegucigalpa San Salvador Managua San José la Ciudad de Panamá Caracas Santa Fé de Bogotá Quito Lima La Paz / Sucre Santia</div>
-  <div class="image-grid">
+    <!-- アフリカ -->
+    <div class="section-header">África アフリカ</div>
+    <table>
+      <tr><th>Región / País</th><th>Capital</th><th>Adjetivo</th></tr>
+      <tr><td colspan="3" style="color:#aaa; font-style:italic;">（主要国は別途追加予定）</td></tr>
+    </table>
 
+    <!-- ヨーロッパ -->
+    <div class="section-header">Europa ヨーロッパ</div>
+    <table>
+      <tr><th>Región / País</th><th>Capital</th><th>Adjetivo</th></tr>
+      <tr><td class="spanish">España</td><td class="spanish">Madrid</td><td class="spanish">español/a</td></tr>
+      <tr><td>Portugal</td><td>Lisboa</td><td>portugués/a</td></tr>
+      <tr><td>Francia</td><td>París</td><td>francés/a</td></tr>
+      <tr><td>Italia</td><td>Roma</td><td>italiano/a</td></tr>
+      <tr><td>Alemania</td><td>Berlín</td><td>alemán/a</td></tr>
+      <tr><td>Inglaterra / Reino Unido</td><td>Londres</td><td>inglés/a</td></tr>
+      <tr><td>Rusia</td><td>Moscú</td><td>ruso/a</td></tr>
+    </table>
+
+    <!-- 北米 -->
+    <div class="section-header">las Américas アメリカ大陸</div>
+    <div class="subsection-header">América del norte / Norteamérica 北米</div>
+    <table>
+      <tr><th>Región / País</th><th>Capital</th><th>Adjetivo</th></tr>
+      <tr><td>Canadá</td><td>Ottawa</td><td>canadiense</td></tr>
+      <tr><td>los Estados Unidos de América</td><td>Washington, D.C.</td><td>estadounidense</td></tr>
+      <tr><td class="spanish">México</td><td class="spanish">la Ciudad de México</td><td class="spanish">mexicano/a</td></tr>
+    </table>
+
+    <!-- カリブ海 -->
+    <div class="subsection-header">El Caribe カリブ海</div>
+    <table>
+      <tr><th>Región / País</th><th>Capital</th><th>Adjetivo</th></tr>
+      <tr><td class="spanish">Puerto Rico (EE. UU.)</td><td class="spanish">San Juan</td><td class="spanish">puertorriqueño/a</td></tr>
+      <tr><td class="spanish">la República Dominicana</td><td class="spanish">Santo Domingo</td><td class="spanish">dominicano/a</td></tr>
+      <tr><td class="spanish">Cuba</td><td class="spanish">La Habana</td><td class="spanish">cubano/a</td></tr>
+      <tr><td>Haití</td><td>Puerto Príncipe</td><td>haitiano/a</td></tr>
+      <tr><td>Jamaica</td><td>Kingston</td><td>jamaiquino/a</td></tr>
+    </table>
+
+    <!-- 中米 -->
+    <div class="subsection-header">América central / Centroamérica 中米</div>
+    <table>
+      <tr><th>Región / País</th><th>Capital</th><th>Adjetivo</th></tr>
+      <tr><td class="spanish">Guatemala</td><td class="spanish">la Ciudad de Guatemala</td><td class="spanish">guatemalteco/a</td></tr>
+      <tr><td class="spanish">Honduras</td><td class="spanish">Tegucigalpa</td><td class="spanish">hondureño/a</td></tr>
+      <tr><td class="spanish">El Salvador</td><td class="spanish">San Salvador</td><td class="spanish">salvadoreño/a</td></tr>
+      <tr><td class="spanish">Nicaragua</td><td class="spanish">Managua</td><td class="spanish">nicaragüense</td></tr>
+      <tr><td class="spanish">Costa Rica</td><td class="spanish">San José</td><td class="spanish">costarricense</td></tr>
+      <tr><td class="spanish">Panamá</td><td class="spanish">la Ciudad de Panamá</td><td class="spanish">panameño/a</td></tr>
+    </table>
+
+    <!-- 南米 -->
+    <div class="subsection-header">América del sur / Sudamérica 南米</div>
+    <table>
+      <tr><th>Región / País</th><th>Capital</th><th>Adjetivo</th></tr>
+      <tr><td class="spanish">Venezuela</td><td class="spanish">Caracas</td><td class="spanish">venezolano/a</td></tr>
+      <tr><td class="spanish">Colombia</td><td class="spanish">Bogotá</td><td class="spanish">colombiano/a</td></tr>
+      <tr><td class="spanish">Ecuador</td><td class="spanish">Quito</td><td class="spanish">ecuatoriano/a</td></tr>
+      <tr><td class="spanish">Perú</td><td class="spanish">Lima</td><td class="spanish">peruano/a</td></tr>
+      <tr><td class="spanish">Bolivia</td><td class="spanish">La Paz / Sucre</td><td class="spanish">boliviano/a</td></tr>
+      <tr><td class="spanish">Chile</td><td class="spanish">Santiago</td><td class="spanish">chileno/a</td></tr>
+      <tr><td class="spanish">Argentina</td><td class="spanish">Buenos Aires</td><td class="spanish">argentino/a</td></tr>
+      <tr><td class="spanish">Paraguay</td><td class="spanish">Asunción</td><td class="spanish">paraguayo/a</td></tr>
+      <tr><td class="spanish">Uruguay</td><td class="spanish">Montevideo</td><td class="spanish">uruguayo/a</td></tr>
+      <tr><td>Brasil</td><td>Brasilia</td><td>brasileño/a</td></tr>
+    </table>
+
+    <footer>© Grupo Moreral</footer>
   </div>
-</main>
-
-<footer class="site-footer">
-  &copy; Grupo Moreral
-</footer>
-
 </body>
 </html>
