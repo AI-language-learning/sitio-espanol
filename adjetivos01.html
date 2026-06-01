@@ -185,12 +185,21 @@
       if (!window.speechSynthesis) return;
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(toSpeechText(text));
-      const voices = window.speechSynthesis.getVoices();
-      const paulina = voices.find(v => v.name === "Paulina");
-      if (paulina) utterance.voice = paulina;
-      utterance.lang = "es-ES";
+      utterance.lang = 'es-MX';
       utterance.rate = 0.9;
-      window.speechSynthesis.speak(utterance);
+
+      const doSpeak = () => {
+        const paulina = window.speechSynthesis.getVoices().find(v => v.name === 'Paulina');
+        if (paulina) utterance.voice = paulina;
+        window.speechSynthesis.speak(utterance);
+      };
+
+      // 音声リストが準備できていない場合は待つ
+      if (window.speechSynthesis.getVoices().length === 0) {
+        window.speechSynthesis.onvoiceschanged = doSpeak;
+      } else {
+        doSpeak();
+      }
     }
 
     function toggleCard(card) {
