@@ -86,7 +86,6 @@
     .card.expanded .ja { font-size: 1.1rem; }
     .card.expanded .antonym { font-size: 0.95rem; }
 
-    /* モード別表示制御 */
     .hide-es .es { visibility: hidden; }
     .hide-en .en { visibility: hidden; }
     .hide-ja .ja { visibility: hidden; }
@@ -150,12 +149,56 @@
   </div>
 
   <script>
+    // /a パターンを読み上げ用テキストに変換
+    function toSpeechText(text) {
+      // スラッシュがない場合はそのまま
+      if (!text.includes('/')) return text;
+
+      // 例外リスト（手動修正が必要なもの）
+      const exceptions = {
+        'trabajador/a': 'trabajador, trabajadora',
+        'japonés/a': 'japonés, japonesa',
+        'francés/a': 'francés, francesa',
+        'inglés/a': 'inglés, inglesa',
+        'alemán/a': 'alemán, alemana',
+      };
+      if (exceptions[text]) return exceptions[text];
+
+      // 一般パターン：語末の /a を取って男性形、+a で女性形
+      // 例: simpático/a → simpático, simpática
+      const match = text.match(/^(.+?)\/a$/);
+      if (match) {
+        const masc = match[1];
+        // 語末がoで終わる場合: simpático → simpática
+        if (masc.endsWith('o')) {
+          const fem = masc.slice(0, -1) + 'a';
+          return `${masc}, ${fem}`;
+        }
+        // 語末がoで終わらない場合: そのまま+a
+        const fem = masc + 'a';
+        return `${masc}, ${fem}`;
+      }
+      return text;
+    }
+
+    function speak(text) {
+      if (!window.speechSynthesis) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(toSpeechText(text));
+      utterance.lang = 'es-ES';
+      utterance.rate = 0.9;
+      window.speechSynthesis.speak(utterance);
+    }
+
     function toggleCard(card) {
       const wasExpanded = card.classList.contains('expanded');
-      // 同じグリッド内の他のカードを閉じる
       const grid = card.closest('.card-grid');
       grid.querySelectorAll('.card.expanded').forEach(c => c.classList.remove('expanded'));
-      if (!wasExpanded) card.classList.add('expanded');
+      if (!wasExpanded) {
+        card.classList.add('expanded');
+        const esText = card.querySelector('.es').textContent;
+        speak(esText);
+      }
     }
 
     function setMode(mode, btn) {
