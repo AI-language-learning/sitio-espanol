@@ -49,7 +49,6 @@
     }
     .card {
       border-radius: 10px;
-      overflow: hidden;
       box-shadow: 4px 6px 16px rgba(200,80,26,0.15);
       background: #fffaf7;
       border: 1px solid #e8c8b8;
@@ -62,35 +61,69 @@
       justify-content: center;
       gap: 0.3rem;
       transition: transform 0.2s;
+      cursor: pointer;
     }
     .card:hover { transform: translateY(-3px); }
 
-    .card .es {
-      font-size: 1.05rem;
-      font-weight: 700;
-      color: #c8501a;
-    }
-    .card .en {
-      font-size: 0.85rem;
-      color: #4a7a9b;
-      font-weight: 600;
-    }
-    .card .ja {
-      font-size: 0.82rem;
-      color: #666;
-    }
-    .card .antonym {
-      font-size: 0.78rem;
-      color: #aaa;
-      margin-top: 0.2rem;
-    }
+    .card .es { font-size: 1.05rem; font-weight: 700; color: #c8501a; }
+    .card .en { font-size: 0.85rem; color: #4a7a9b; font-weight: 600; }
+    .card .ja { font-size: 0.82rem; color: #666; }
+    .card .antonym { font-size: 0.78rem; color: #aaa; margin-top: 0.2rem; }
 
-    /* モード別表示制御 */
     .hide-es .es { visibility: hidden; }
     .hide-en .en { visibility: hidden; }
     .hide-ja .ja { visibility: hidden; }
     .show-only-ja .es { visibility: hidden; }
     .show-only-ja .en { visibility: hidden; }
+
+    /* モーダル */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-overlay.open {
+      display: flex;
+    }
+    .modal-card {
+      background: #fffaf7;
+      border-radius: 20px;
+      padding: 3rem 4rem;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      max-width: 90vw;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.8rem;
+      animation: popIn 0.2s ease;
+    }
+    @keyframes popIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to   { transform: scale(1);   opacity: 1; }
+    }
+    .modal-card .es { font-size: 3rem; font-weight: 700; color: #c8501a; }
+    .modal-card .en { font-size: 1.8rem; color: #4a7a9b; font-weight: 600; }
+    .modal-card .ja { font-size: 1.5rem; color: #555; }
+    .modal-card .antonym { font-size: 1rem; color: #aaa; margin-top: 0.5rem; }
+    .modal-close {
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+
+    /* モーダル時もモード反映 */
+    .hide-es .modal-card .es { display: none; }
+    .hide-en .modal-card .en { display: none; }
+    .hide-ja .modal-card .ja { display: none; }
+    .show-only-ja .modal-card .es { display: none; }
+    .show-only-ja .modal-card .en { display: none; }
   </style>
 </head>
 <body>
@@ -111,160 +144,36 @@
 
       <div class="section-header">性格 / Personalidad</div>
       <div class="card-grid">
-        <div class="card">
-          <div class="es">simpático/a</div>
-          <div class="en">nice, friendly</div>
-          <div class="ja">感じがいい</div>
-          <div class="antonym">↔ antipático/a</div>
-        </div>
-        <div class="card">
-          <div class="es">antipático/a</div>
-          <div class="en">unfriendly</div>
-          <div class="ja">感じが悪い</div>
-          <div class="antonym">↔ simpático/a</div>
-        </div>
-        <div class="card">
-          <div class="es">amable</div>
-          <div class="en">kind, gentle</div>
-          <div class="ja">親切な</div>
-        </div>
-        <div class="card">
-          <div class="es">divertido/a</div>
-          <div class="en">fun, funny</div>
-          <div class="ja">楽しい、おもしろい</div>
-          <div class="antonym">↔ aburrido/a</div>
-        </div>
-        <div class="card">
-          <div class="es">aburrido/a</div>
-          <div class="en">boring</div>
-          <div class="ja">退屈な</div>
-          <div class="antonym">↔ divertido/a</div>
-        </div>
-        <div class="card">
-          <div class="es">inteligente</div>
-          <div class="en">intelligent</div>
-          <div class="ja">頭がいい</div>
-        </div>
-        <div class="card">
-          <div class="es">tonto/a</div>
-          <div class="en">silly, foolish</div>
-          <div class="ja">おろかな</div>
-        </div>
-        <div class="card">
-          <div class="es">trabajador/a</div>
-          <div class="en">hardworking</div>
-          <div class="ja">勤勉な</div>
-          <div class="antonym">↔ perezoso/a</div>
-        </div>
-        <div class="card">
-          <div class="es">perezoso/a</div>
-          <div class="en">lazy</div>
-          <div class="ja">怠惰な</div>
-          <div class="antonym">↔ trabajador/a</div>
-        </div>
-        <div class="card">
-          <div class="es">serio/a</div>
-          <div class="en">serious</div>
-          <div class="ja">まじめな</div>
-        </div>
-        <div class="card">
-          <div class="es">generoso/a</div>
-          <div class="en">generous</div>
-          <div class="ja">気前がいい</div>
-          <div class="antonym">↔ tacaño/a</div>
-        </div>
-        <div class="card">
-          <div class="es">tacaño/a</div>
-          <div class="en">stingy</div>
-          <div class="ja">けちな</div>
-          <div class="antonym">↔ generoso/a</div>
-        </div>
-        <div class="card">
-          <div class="es">tímido/a</div>
-          <div class="en">shy</div>
-          <div class="ja">内気な</div>
-        </div>
-        <div class="card">
-          <div class="es">extrovertido/a</div>
-          <div class="en">outgoing</div>
-          <div class="ja">外向的な</div>
-          <div class="antonym">↔ introvertido/a</div>
-        </div>
-        <div class="card">
-          <div class="es">honesto/a</div>
-          <div class="en">honest</div>
-          <div class="ja">正直な</div>
-        </div>
-        <div class="card">
-          <div class="es">optimista</div>
-          <div class="en">optimistic</div>
-          <div class="ja">楽観的な</div>
-          <div class="antonym">↔ pesimista</div>
-        </div>
+        <div class="card" onclick="openModal('simpático/a','nice, friendly','感じがいい','↔ antipático/a')"><div class="es">simpático/a</div><div class="en">nice, friendly</div><div class="ja">感じがいい</div><div class="antonym">↔ antipático/a</div></div>
+        <div class="card" onclick="openModal('antipático/a','unfriendly','感じが悪い','↔ simpático/a')"><div class="es">antipático/a</div><div class="en">unfriendly</div><div class="ja">感じが悪い</div><div class="antonym">↔ simpático/a</div></div>
+        <div class="card" onclick="openModal('amable','kind, gentle','親切な','')"><div class="es">amable</div><div class="en">kind, gentle</div><div class="ja">親切な</div></div>
+        <div class="card" onclick="openModal('divertido/a','fun, funny','楽しい、おもしろい','↔ aburrido/a')"><div class="es">divertido/a</div><div class="en">fun, funny</div><div class="ja">楽しい、おもしろい</div><div class="antonym">↔ aburrido/a</div></div>
+        <div class="card" onclick="openModal('aburrido/a','boring','退屈な','↔ divertido/a')"><div class="es">aburrido/a</div><div class="en">boring</div><div class="ja">退屈な</div><div class="antonym">↔ divertido/a</div></div>
+        <div class="card" onclick="openModal('inteligente','intelligent','頭がいい','')"><div class="es">inteligente</div><div class="en">intelligent</div><div class="ja">頭がいい</div></div>
+        <div class="card" onclick="openModal('tonto/a','silly, foolish','おろかな','')"><div class="es">tonto/a</div><div class="en">silly, foolish</div><div class="ja">おろかな</div></div>
+        <div class="card" onclick="openModal('trabajador/a','hardworking','勤勉な','↔ perezoso/a')"><div class="es">trabajador/a</div><div class="en">hardworking</div><div class="ja">勤勉な</div><div class="antonym">↔ perezoso/a</div></div>
+        <div class="card" onclick="openModal('perezoso/a','lazy','怠惰な','↔ trabajador/a')"><div class="es">perezoso/a</div><div class="en">lazy</div><div class="ja">怠惰な</div><div class="antonym">↔ trabajador/a</div></div>
+        <div class="card" onclick="openModal('serio/a','serious','まじめな','')"><div class="es">serio/a</div><div class="en">serious</div><div class="ja">まじめな</div></div>
+        <div class="card" onclick="openModal('generoso/a','generous','気前がいい','↔ tacaño/a')"><div class="es">generoso/a</div><div class="en">generous</div><div class="ja">気前がいい</div><div class="antonym">↔ tacaño/a</div></div>
+        <div class="card" onclick="openModal('tacaño/a','stingy','けちな','↔ generoso/a')"><div class="es">tacaño/a</div><div class="en">stingy</div><div class="ja">けちな</div><div class="antonym">↔ generoso/a</div></div>
+        <div class="card" onclick="openModal('tímido/a','shy','内気な','')"><div class="es">tímido/a</div><div class="en">shy</div><div class="ja">内気な</div></div>
+        <div class="card" onclick="openModal('extrovertido/a','outgoing','外向的な','↔ introvertido/a')"><div class="es">extrovertido/a</div><div class="en">outgoing</div><div class="ja">外向的な</div><div class="antonym">↔ introvertido/a</div></div>
+        <div class="card" onclick="openModal('honesto/a','honest','正直な','')"><div class="es">honesto/a</div><div class="en">honest</div><div class="ja">正直な</div></div>
+        <div class="card" onclick="openModal('optimista','optimistic','楽観的な','↔ pesimista')"><div class="es">optimista</div><div class="en">optimistic</div><div class="ja">楽観的な</div><div class="antonym">↔ pesimista</div></div>
       </div>
 
       <div class="section-header">外見 / Apariencia física</div>
       <div class="card-grid">
-        <div class="card">
-          <div class="es">alto/a</div>
-          <div class="en">tall</div>
-          <div class="ja">背が高い</div>
-          <div class="antonym">↔ bajo/a</div>
-        </div>
-        <div class="card">
-          <div class="es">bajo/a</div>
-          <div class="en">short</div>
-          <div class="ja">背が低い</div>
-          <div class="antonym">↔ alto/a</div>
-        </div>
-        <div class="card">
-          <div class="es">delgado/a</div>
-          <div class="en">slim, thin</div>
-          <div class="ja">細い、やせた</div>
-          <div class="antonym">↔ gordo/a</div>
-        </div>
-        <div class="card">
-          <div class="es">gordo/a</div>
-          <div class="en">fat, overweight</div>
-          <div class="ja">太った</div>
-          <div class="antonym">↔ delgado/a</div>
-        </div>
-        <div class="card">
-          <div class="es">guapo/a</div>
-          <div class="en">good-looking</div>
-          <div class="ja">ハンサムな、きれいな</div>
-          <div class="antonym">↔ feo/a</div>
-        </div>
-        <div class="card">
-          <div class="es">feo/a</div>
-          <div class="en">ugly</div>
-          <div class="ja">醜い</div>
-          <div class="antonym">↔ guapo/a</div>
-        </div>
-        <div class="card">
-          <div class="es">joven</div>
-          <div class="en">young</div>
-          <div class="ja">若い</div>
-          <div class="antonym">↔ viejo/a</div>
-        </div>
-        <div class="card">
-          <div class="es">viejo/a</div>
-          <div class="en">old</div>
-          <div class="ja">年老いた</div>
-          <div class="antonym">↔ joven</div>
-        </div>
-        <div class="card">
-          <div class="es">fuerte</div>
-          <div class="en">strong</div>
-          <div class="ja">強い</div>
-          <div class="antonym">↔ débil</div>
-        </div>
-        <div class="card">
-          <div class="es">débil</div>
-          <div class="en">weak</div>
-          <div class="ja">弱い</div>
-          <div class="antonym">↔ fuerte</div>
-        </div>
+        <div class="card" onclick="openModal('alto/a','tall','背が高い','↔ bajo/a')"><div class="es">alto/a</div><div class="en">tall</div><div class="ja">背が高い</div><div class="antonym">↔ bajo/a</div></div>
+        <div class="card" onclick="openModal('bajo/a','short','背が低い','↔ alto/a')"><div class="es">bajo/a</div><div class="en">short</div><div class="ja">背が低い</div><div class="antonym">↔ alto/a</div></div>
+        <div class="card" onclick="openModal('delgado/a','slim, thin','細い、やせた','↔ gordo/a')"><div class="es">delgado/a</div><div class="en">slim, thin</div><div class="ja">細い、やせた</div><div class="antonym">↔ gordo/a</div></div>
+        <div class="card" onclick="openModal('gordo/a','fat, overweight','太った','↔ delgado/a')"><div class="es">gordo/a</div><div class="en">fat, overweight</div><div class="ja">太った</div><div class="antonym">↔ delgado/a</div></div>
+        <div class="card" onclick="openModal('guapo/a','good-looking','ハンサムな、きれいな','↔ feo/a')"><div class="es">guapo/a</div><div class="en">good-looking</div><div class="ja">ハンサムな、きれいな</div><div class="antonym">↔ feo/a</div></div>
+        <div class="card" onclick="openModal('feo/a','ugly','醜い','↔ guapo/a')"><div class="es">feo/a</div><div class="en">ugly</div><div class="ja">醜い</div><div class="antonym">↔ guapo/a</div></div>
+        <div class="card" onclick="openModal('joven','young','若い','↔ viejo/a')"><div class="es">joven</div><div class="en">young</div><div class="ja">若い</div><div class="antonym">↔ viejo/a</div></div>
+        <div class="card" onclick="openModal('viejo/a','old','年老いた','↔ joven')"><div class="es">viejo/a</div><div class="en">old</div><div class="ja">年老いた</div><div class="antonym">↔ joven</div></div>
+        <div class="card" onclick="openModal('fuerte','strong','強い','↔ débil')"><div class="es">fuerte</div><div class="en">strong</div><div class="ja">強い</div><div class="antonym">↔ débil</div></div>
+        <div class="card" onclick="openModal('débil','weak','弱い','↔ fuerte')"><div class="es">débil</div><div class="en">weak</div><div class="ja">弱い</div><div class="antonym">↔ fuerte</div></div>
       </div>
 
     </div>
@@ -272,13 +181,43 @@
     <footer>© Grupo Moreral</footer>
   </div>
 
+  <!-- モーダル -->
+  <div class="modal-overlay" id="modal" onclick="closeModal()">
+    <div class="modal-card" onclick="event.stopPropagation()">
+      <div class="es" id="modal-es"></div>
+      <div class="en" id="modal-en"></div>
+      <div class="ja" id="modal-ja"></div>
+      <div class="antonym" id="modal-antonym"></div>
+      <div class="modal-close">クリックで閉じる / Esc</div>
+    </div>
+  </div>
+
   <script>
     function setMode(mode, btn) {
       const grid = document.getElementById('cardGrid');
+      const modal = document.getElementById('modal');
       grid.className = mode === 'all' ? '' : mode;
+      modal.className = 'modal-overlay' + (modal.classList.contains('open') ? ' open' : '') + (mode === 'all' ? '' : ' ' + mode);
       document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
     }
+
+    function openModal(es, en, ja, antonym) {
+      document.getElementById('modal-es').textContent = es;
+      document.getElementById('modal-en').textContent = en;
+      document.getElementById('modal-ja').textContent = ja;
+      document.getElementById('modal-antonym').textContent = antonym;
+      const modal = document.getElementById('modal');
+      modal.classList.add('open');
+    }
+
+    function closeModal() {
+      document.getElementById('modal').classList.remove('open');
+    }
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeModal();
+    });
   </script>
 </body>
 </html>
