@@ -153,3 +153,10 @@ script, .tinyText { display: none !important; }
     font-size: 18px;
   }
 }
+
+/* ===== コンテナ ===== */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+}
