@@ -65,7 +65,7 @@ body {
 
 /* ===== メインコンテンツ ===== */
 .site-main {
-  max-width: 720px;
+  max-width: 860px;
   margin: 0 auto;
   padding: 0 1.5rem 3rem;
 }
@@ -96,17 +96,24 @@ body {
 /* ===== 画像グリッド ===== */
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.75rem;
   margin-top: 1.5rem;
 }
 
 .image-grid img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.18);
   display: block;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: #fff;
+}
+
+.image-grid img:hover {
+  transform: translateY(-4px);
+  box-shadow: 6px 10px 24px rgba(0, 0, 0, 0.22);
 }
 
 /* ===== 戻るボタン ===== */
@@ -135,3 +142,14 @@ body {
 /* ===== iWebの残骸を非表示 ===== */
 #nav_layer, #header_layer, .bumper, .spacer,
 script, .tinyText { display: none !important; }
+
+/* ===== スマホ対応 ===== */
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .site-header .site-title {
+    font-size: 18px;
+  }
+}
