@@ -1,39 +1,143 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>よろしく／こちらこそ</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>よろしく – Mucho gusto</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-title { font-size: 1.5rem; font-weight: bold; margin-bottom: 1.5rem; }
+    .page-title span { color: #c8501a; font-size: 1rem; font-weight: normal; }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.75rem;
+    }
+
+    .card {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 4px 6px 16px rgba(200,80,26,0.15);
+      background: #fffaf7;
+      border: 1px solid #e8c8b8;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 6px 10px 24px rgba(200,80,26,0.25);
+    }
+    .card img {
+      width: 100%;
+      display: block;
+    }
+    .card-body {
+      padding: 0.8rem 1rem;
+      text-align: center;
+    }
+    .card-es {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #c8501a;
+      margin-bottom: 0.3rem;
+    }
+    .card-ja {
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.5;
+    }
+    .card-sound {
+      font-size: 0.78rem;
+      color: #c8501a;
+      margin-top: 0.4rem;
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <a href="como_se_dice.html" class="back-link">← ¿Cómo se dice?に戻る</a>
 
-<header class="site-header">
-  <a href="menu.html"><div class="site-title">¡Vamos a aprender español!</div></a>
-  <div class="site-subtitle">Curso de español &nbsp;·&nbsp; スペイン語を楽しく覚えよう！</div>
-</header>
+    <div class="page-title">よろしく <span>/ Mucho gusto</span></div>
 
-<nav class="site-nav">
-  <a href="introduccion.html">スペイン語とは</a>
-  <a href="pronunciacion.html">発音</a>
-  <a href="como_se_dice.html">¿Cómo se dice?</a>
-</nav>
+    <div class="card-grid">
 
-<main class="site-main">
-  <a class="back-link" href="como_se_dice.html">← ¿Cómo se dice? に戻る</a>
-  <h1 class="page-title">よろしく／こちらこそ <span>Mucho gusto / Igualmente</span></h1>
-  <div class="image-grid">
-    <img src="mucho_gusto_files/Media/1/1.jpg" alt="よろしく／こちらこそ 1">
-    <img src="mucho_gusto_files/Media/2/2.jpg" alt="よろしく／こちらこそ 2">
-    <img src="mucho_gusto_files/Media/3/3.jpg" alt="よろしく／こちらこそ 3">
-    <img src="mucho_gusto_files/Media/4/4.jpg" alt="よろしく／こちらこそ 4">
-    <img src="mucho_gusto_files/Media/5/5.jpg" alt="よろしく／こちらこそ 5">
+      <div class="card" onclick="speak('Mucho gusto')">
+        <img src="mucho_gusto_files/Media/1/1.jpg" alt="Mucho gusto" />
+        <div class="card-body">
+          <div class="card-es">Mucho gusto</div>
+          <div class="card-ja">「よろしく（お願いします）」の最も一般的な言い方</div>
+          <div class="card-sound">🔊 クリックで発音</div>
+        </div>
+      </div>
+
+      <div class="card" onclick="speak('Igualmente')">
+        <img src="mucho_gusto_files/Media/2/2.jpg" alt="Igualmente" />
+        <div class="card-body">
+          <div class="card-es">Igualmente</div>
+          <div class="card-ja">「同様です」＝「こちらこそ」<br>igual = equal / igualmente = equally</div>
+          <div class="card-sound">🔊 クリックで発音</div>
+        </div>
+      </div>
+
+      <div class="card" onclick="speak('Encantado')">
+        <img src="mucho_gusto_files/Media/3/3.jpg" alt="Encantado" />
+        <div class="card-body">
+          <div class="card-es">Encantado</div>
+          <div class="card-ja">「（知り合えて）嬉しい」<br>形容詞で言っている人の性に合わせる。-o で終わる男性形。</div>
+          <div class="card-sound">🔊 クリックで発音</div>
+        </div>
+      </div>
+
+      <div class="card" onclick="speak('Encantada')">
+        <img src="mucho_gusto_files/Media/4/4.jpg" alt="Encantada" />
+        <div class="card-body">
+          <div class="card-es">Encantada</div>
+          <div class="card-ja">女性形。-a で終わる。</div>
+          <div class="card-sound">🔊 クリックで発音</div>
+        </div>
+      </div>
+
+      <div class="card" onclick="speak('Encantado, Encantada')">
+        <img src="mucho_gusto_files/Media/5/5.jpg" alt="Encantado/a" />
+        <div class="card-body">
+          <div class="card-es">Encantado/a</div>
+          <div class="card-ja">「嬉しいです」と言う人の性に合わせる。間違えないように。</div>
+          <div class="card-sound">🔊 クリックで発音</div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>© Grupo Moreral</footer>
   </div>
-</main>
 
-<footer class="site-footer">
-  &copy; Grupo Moreral
-</footer>
+  <script>
+    let paulinaVoice = null;
 
+    function loadPaulina() {
+      const voices = window.speechSynthesis.getVoices();
+      if (voices.length > 0) {
+        paulinaVoice = voices.find(v => v.name === 'Paulina') || null;
+      }
+    }
+
+    window.speechSynthesis.onvoiceschanged = () => {
+      loadPaulina();
+      window.speechSynthesis.onvoiceschanged = null;
+    };
+    loadPaulina();
+
+    function speak(text) {
+      if (!window.speechSynthesis) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'es-MX';
+      utterance.rate = 0.9;
+      if (paulinaVoice) utterance.voice = paulinaVoice;
+      window.speechSynthesis.speak(utterance);
+    }
+  </script>
 </body>
 </html>
